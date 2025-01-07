@@ -174,7 +174,7 @@ class _LanguageScreenState extends State<LanguageScreen> {
                                     imageUrl: "${languages[index]['image']}",
                                     placeholder: (context, url) => Center(
                                       child: Image.asset(
-                                          "assets/home_page/onest_logo.png"),
+                                          "assets/onboarding/logoxirfadkaab.jpg"),
                                     ),
                                     errorWidget: (context, url, error) =>
                                         const Icon(Icons.error),

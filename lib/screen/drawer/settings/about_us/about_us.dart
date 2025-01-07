@@ -27,7 +27,7 @@ class AboutUs extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Image.asset(
-                    'assets/home_page/onest_logo.png',
+                    'assets/onboarding/logoxirfadkaab.jpg',
                     height: 74.h,
                   ),
                   SizedBox(

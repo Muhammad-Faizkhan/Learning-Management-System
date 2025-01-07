@@ -942,6 +942,7 @@ layout toast_custom
 menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_background
+mipmap ic_launcher_foregroud
 mipmap ic_launcher_foreground
 mipmap ic_launcher_monochrome
 string abc_action_bar_home_description
