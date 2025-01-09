@@ -17,8 +17,8 @@ class AuthRepository {
       BodyLogin bodyLogin) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response =
-          await ApiService.getDio()!.post("/sign-in", data: bodyLogin);
+      var response = await ApiService.getDio()!
+          .post("https://www.xirfadkaab.so/api/v1/sign-in", data: bodyLogin);
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {
@@ -64,11 +64,12 @@ class AuthRepository {
   static Future<ApiResponse<ResponseSignUp>> getSignUp(data) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.post("/registration",
-          data: data,
-          options: Options(headers: {
-            "Accept": "application/json",
-          }));
+      var response = await ApiService.getDio()!
+          .post("https://www.xirfadkaab.so/api/v1/registration",
+              data: data,
+              options: Options(headers: {
+                "Accept": "application/json",
+              }));
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {
@@ -114,11 +115,12 @@ class AuthRepository {
       data) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.post("/student/forgot-password",
-          data: data,
-          options: Options(headers: {
-            "Accept": "application/json",
-          }));
+      var response = await ApiService.getDio()!
+          .post("https://www.xirfadkaab.so/api/v1/student/forgot-password",
+              data: data,
+              options: Options(headers: {
+                "Accept": "application/json",
+              }));
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {
@@ -164,8 +166,9 @@ class AuthRepository {
       BodyVerification bodyVerification) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!
-          .post("/student/verify-email", data: bodyVerification);
+      var response = await ApiService.getDio()!.post(
+          "https://www.xirfadkaab.so/api/v1/student/verify-email",
+          data: bodyVerification);
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

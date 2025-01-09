@@ -6,11 +6,12 @@ import 'package:lms/data/model/mentors_response/mentors_profile_details_response
 import 'package:lms/data/response_structure/api_response.dart';
 
 class MentorsProfileDetailsRepository {
-
-   static Future<ApiResponse<MentorsDetailsResponse>> getMentorsProfileDetailsData(int? id) async {
+  static Future<ApiResponse<MentorsDetailsResponse>>
+      getMentorsProfileDetailsData(int? id) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/instructor/$id/details");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/instructor/$id/details");
       if (kDebugMode) {
         print("/instructor/$id/details");
       }

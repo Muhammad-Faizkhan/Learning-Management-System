@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\flutter_inappwebview_android\\intermediates\\merged_res\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\339f957e235fc674f0769926e7889b50\\transformed\\appcompat-1.6.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\flutter_inappwebview_android\\intermediates\\merged_res\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\339f957e235fc674f0769926e7889b50\\transformed\\appcompat-1.6.1\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\flutter_inappwebview_android\\intermediates\\merged_res\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\a6bcfdecbd78842d2b5167e25df762e0\\transformed\\core-1.9.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\flutter_inappwebview_android\\intermediates\\merged_res\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\339f957e235fc674f0769926e7889b50\\transformed\\appcompat-1.6.1\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\flutter_inappwebview_android\\intermediates\\merged_res\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\339f957e235fc674f0769926e7889b50\\transformed\\appcompat-1.6.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\flutter_inappwebview_android\\intermediates\\merged_res\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\339f957e235fc674f0769926e7889b50\\transformed\\appcompat-1.6.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    }
+]

@@ -11,7 +11,7 @@ class MentorsRepository {
     try {
       EasyLoading.show(status: 'loading...');
       var response = await ApiService.getDio()!
-          .get("/instructors");
+          .get("https://www.xirfadkaab.so/api/v1/instructors");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

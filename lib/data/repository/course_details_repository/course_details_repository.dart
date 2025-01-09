@@ -13,7 +13,8 @@ class CourseDetailsRepository {
       getCourseDetailsRepositoryApi(int? id) async {
     try {
       // EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/course/details/$id");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/course/details/$id");
       // EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

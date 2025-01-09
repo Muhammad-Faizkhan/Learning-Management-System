@@ -6,7 +6,7 @@ class AppConst {
   // static const String baseUrl = "https://academia.tolgatec.com";
   // static const String baseUrl = "https://mdeducation.in";
 
-  /// Make sure you are in live server or test server by base url
+  /// Make sure you are in live server or test server by
   static String baseUrlApi = "$baseUrl/api/v1";
   static String bearerToken = "Bearer";
 }

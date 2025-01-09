@@ -9,7 +9,8 @@ class HomeRepository {
   static Future<ApiResponse<ResponseHome>> getHomeApi() async {
     try {
       // EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/home");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/home");
       // EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

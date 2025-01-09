@@ -10,7 +10,8 @@ class BaseSettingsRepository {
   static Future<ApiResponse<BaseSettingsResponse>> getBaseSettingsApi() async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/general-settings");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/general-settings");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

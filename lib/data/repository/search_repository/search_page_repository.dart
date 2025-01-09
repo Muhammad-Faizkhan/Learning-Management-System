@@ -10,8 +10,8 @@ class SearchPageRepository {
       String? globalSearch) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response =
-          await ApiService.getDio()!.get("/courses?search=$globalSearch");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/courses?search=$globalSearch");
 
       EasyLoading.dismiss();
       if (response.statusCode == 200) {

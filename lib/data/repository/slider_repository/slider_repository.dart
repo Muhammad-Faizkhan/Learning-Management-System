@@ -10,7 +10,8 @@ class SliderRepository {
   static Future<ApiResponse<SliderResponse>> getSliderListApi() async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/slider");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/slider");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

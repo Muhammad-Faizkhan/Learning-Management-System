@@ -6,11 +6,11 @@ import 'package:lms/data/model/about_us_response/about_us_response.dart';
 import 'package:lms/data/response_structure/api_response.dart';
 
 class AboutUsRepository {
-  static Future<ApiResponse<AboutUsResponse>>
-      getAboutUsRepositoryData() async {
+  static Future<ApiResponse<AboutUsResponse>> getAboutUsRepositoryData() async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/about-us");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/about-us");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

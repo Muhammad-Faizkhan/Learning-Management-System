@@ -11,7 +11,8 @@ class FeaturedCategoryRepository {
       getSellAllCategoryApi() async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/course/categories");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/course/categories");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

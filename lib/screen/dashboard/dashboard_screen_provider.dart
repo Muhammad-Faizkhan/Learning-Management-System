@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:lms/data/model/dashbaord_response/dashboard_response.dart';
+import 'package:lms/data/model/profile_response/profile_response.dart';
 import 'package:lms/data/repository/dashboard_repository/dashboard_repository.dart';
+import 'package:lms/data/repository/profile_repository/profile_repository.dart';
 import 'package:lms/utils/shared_preferences.dart';
 
 class DashboardScreenProvider extends ChangeNotifier {
+  ProfileResponse? profileResponse;
   DashboardResponse? dashboardResponse;
   String? userName;
   String? userAvatar;
@@ -11,18 +14,18 @@ class DashboardScreenProvider extends ChangeNotifier {
 
   DashboardScreenProvider() {
     getUserData();
-    // myProfileApi();
+    myProfileApi();
     dashboardapi();
   }
 
-  // void myProfileApi() async {
-  //   var apiResponse = await ProfileRepository.getProfileRepositoryData();
+  void myProfileApi() async {
+    var apiResponse = await ProfileRepository.getProfileRepositoryData();
 
-  //   if (apiResponse.success == true) {
-  //     profileResponse = apiResponse.data;
-  //     notifyListeners();
-  //   }
-  // }
+    if (apiResponse.success == true) {
+      profileResponse = apiResponse.data;
+      notifyListeners();
+    }
+  }
 
   void getUserData() async {
     userName = await SPUtill.getValue(SPUtill.keyName);

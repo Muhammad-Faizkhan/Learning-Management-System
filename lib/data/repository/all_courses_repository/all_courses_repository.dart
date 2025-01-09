@@ -6,10 +6,12 @@ import 'package:lms/data/model/all_courses_response/all_courses_response.dart';
 import 'package:lms/data/response_structure/api_response.dart';
 
 class AllCoursesRepository {
-  static Future<ApiResponse<AllCoursesResponse>> getAllCoursesRepositoryData(String? courseSearch) async {
+  static Future<ApiResponse<AllCoursesResponse>> getAllCoursesRepositoryData(
+      String? courseSearch) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/courses?search=$courseSearch");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/courses?search=$courseSearch");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

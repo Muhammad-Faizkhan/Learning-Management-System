@@ -6,12 +6,12 @@ import 'package:lms/data/model/see_all_response/see_all_response.dart';
 import 'package:lms/data/response_structure/api_response.dart';
 
 class SeeAllRepository {
-  static Future<ApiResponse<SeeAllResponse>>
-      getSeeAllRepositoryData(
+  static Future<ApiResponse<SeeAllResponse>> getSeeAllRepositoryData(
       String? slugName) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/see-all-courses?type=$slugName");
+      var response = await ApiService.getDio()!.get(
+          "https://www.xirfadkaab.so/api/v1/see-all-courses?type=$slugName");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

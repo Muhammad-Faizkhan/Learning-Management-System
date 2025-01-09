@@ -6,11 +6,12 @@ import 'package:lms/data/response_structure/api_response.dart';
 import '../../model/organization_response/organization_details_response.dart';
 
 class OrganizationDetailsRepository {
-
-  static Future<ApiResponse<OrganizationDetailsModel>> getOrganizationDetailsData(int? id) async {
+  static Future<ApiResponse<OrganizationDetailsModel>>
+      getOrganizationDetailsData(int? id) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/organization/$id/details");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/organization/$id/details");
       if (kDebugMode) {
         print("/organization/$id/details");
       }

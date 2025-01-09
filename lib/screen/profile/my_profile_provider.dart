@@ -17,7 +17,7 @@ class MyProfileProvider extends ChangeNotifier {
   MyProfileProvider() {
     getUserData();
     myProfileApi();
-    userCertificateApi();
+    // userCertificateApi();
   }
 
   void myProfileApi() async {
@@ -39,13 +39,13 @@ class MyProfileProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void userCertificateApi() async {
-    var apiResponse =
-        await UserCertificateRepository.getUserCertificateRepositoryData();
+  // void userCertificateApi() async {
+  //   var apiResponse =
+  //       await UserCertificateRepository.getUserCertificateRepositoryData();
 
-    if (apiResponse.success == true) {
-      userCertificateResponse = apiResponse.data;
-      notifyListeners();
-    }
-  }
+  //   if (apiResponse.success == true) {
+  //     userCertificateResponse = apiResponse.data;
+  //     notifyListeners();
+  //   }
+  // }
 }

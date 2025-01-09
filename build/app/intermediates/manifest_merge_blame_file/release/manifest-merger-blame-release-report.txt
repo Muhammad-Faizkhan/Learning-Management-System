@@ -1,0 +1,304 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mtai.xirfadkaab"
+4    android:versionCode="9"
+5    android:versionName="1.0.9" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:3:5-66
+11-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[:file_picker] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-80
+12-->[:file_picker] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-77
+13
+14    <queries>
+14-->[:file_picker] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-17:15
+15        <intent>
+15-->[:file_picker] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-16:18
+16            <action android:name="android.intent.action.GET_CONTENT" />
+16-->[:file_picker] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-72
+16-->[:file_picker] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:13:21-69
+17
+18            <data android:mimeType="*/*" />
+18-->[:file_picker] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-44
+18-->[:file_picker] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\file_picker\intermediates\merged_manifest\release\AndroidManifest.xml:15:19-41
+19        </intent>
+20        <intent>
+20-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:18
+21            <action android:name="android.support.customtabs.action.CustomTabsService" />
+21-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-90
+21-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:21-87
+22        </intent>
+23        <intent>
+23-->[androidx.media2:media2-session:1.2.1] C:\Users\123\.gradle\caches\transforms-3\64fa2826236559750cadd1c8c28e2182\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:25:9-27:18
+24            <action android:name="android.media.browse.MediaBrowserService" />
+24-->[androidx.media2:media2-session:1.2.1] C:\Users\123\.gradle\caches\transforms-3\64fa2826236559750cadd1c8c28e2182\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:13-79
+24-->[androidx.media2:media2-session:1.2.1] C:\Users\123\.gradle\caches\transforms-3\64fa2826236559750cadd1c8c28e2182\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:21-76
+25        </intent>
+26        <intent>
+26-->[androidx.media2:media2-session:1.2.1] C:\Users\123\.gradle\caches\transforms-3\64fa2826236559750cadd1c8c28e2182\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:28:9-30:18
+27            <action android:name="androidx.media2.session.MediaSessionService" />
+27-->[androidx.media2:media2-session:1.2.1] C:\Users\123\.gradle\caches\transforms-3\64fa2826236559750cadd1c8c28e2182\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:13-82
+27-->[androidx.media2:media2-session:1.2.1] C:\Users\123\.gradle\caches\transforms-3\64fa2826236559750cadd1c8c28e2182\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:21-79
+28        </intent>
+29        <intent>
+29-->[androidx.media2:media2-session:1.2.1] C:\Users\123\.gradle\caches\transforms-3\64fa2826236559750cadd1c8c28e2182\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:31:9-33:18
+30            <action android:name="androidx.media2.session.MediaLibraryService" />
+30-->[androidx.media2:media2-session:1.2.1] C:\Users\123\.gradle\caches\transforms-3\64fa2826236559750cadd1c8c28e2182\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:13-82
+30-->[androidx.media2:media2-session:1.2.1] C:\Users\123\.gradle\caches\transforms-3\64fa2826236559750cadd1c8c28e2182\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:21-79
+31        </intent>
+32    </queries>
+33
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->[:connectivity_plus] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+34-->[:connectivity_plus] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\connectivity_plus\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+35
+36    <permission
+36-->[androidx.core:core:1.10.1] C:\Users\123\.gradle\caches\transforms-3\bcab8663a301e104312114730617924f\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+37        android:name="com.mtai.xirfadkaab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+37-->[androidx.core:core:1.10.1] C:\Users\123\.gradle\caches\transforms-3\bcab8663a301e104312114730617924f\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+38        android:protectionLevel="signature" />
+38-->[androidx.core:core:1.10.1] C:\Users\123\.gradle\caches\transforms-3\bcab8663a301e104312114730617924f\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+39
+40    <uses-permission android:name="com.mtai.xirfadkaab.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+40-->[androidx.core:core:1.10.1] C:\Users\123\.gradle\caches\transforms-3\bcab8663a301e104312114730617924f\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+40-->[androidx.core:core:1.10.1] C:\Users\123\.gradle\caches\transforms-3\bcab8663a301e104312114730617924f\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+41
+42    <application
+43        android:name="android.app.Application"
+43-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:6:9-42
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.10.1] C:\Users\123\.gradle\caches\transforms-3\bcab8663a301e104312114730617924f\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+45        android:icon="@mipmap/ic_launcher"
+45-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:7:9-43
+46        android:label="xirfadkaab" >
+46-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:5:9-35
+47        android:roundIcon="@mipmap/ic_launcher_round"
+48        <activity
+48-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:9:9-29:20
+49            android:name="com.mtai.xirfadkaab.MainActivity"
+49-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:10:13-41
+50            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+50-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:14:13-163
+51            android:exported="true"
+51-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:11:13-36
+52            android:hardwareAccelerated="true"
+52-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:15:13-47
+53            android:launchMode="singleTop"
+53-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:12:13-43
+54            android:theme="@style/LaunchTheme"
+54-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:13:13-47
+55            android:windowSoftInputMode="adjustResize" >
+55-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:16:13-55
+56
+57            <!--
+58                 Specifies an Android theme to apply to this Activity as soon as
+59                 the Android process has started. This theme is visible to the user
+60                 while the Flutter UI initializes. After that, this theme continues
+61                 to determine the Window background behind the Flutter UI.
+62            -->
+63            <meta-data
+63-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:21:13-24:17
+64                android:name="io.flutter.embedding.android.NormalTheme"
+64-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:22:15-70
+65                android:resource="@style/NormalTheme" />
+65-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:23:15-52
+66
+67            <intent-filter>
+67-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:25:13-28:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:26:17-68
+68-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:26:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:27:17-76
+70-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:27:27-74
+71            </intent-filter>
+72        </activity>
+73        <!--
+74             Don't delete the meta-data below.
+75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+76        -->
+77        <meta-data
+77-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:32:9-34:33
+78            android:name="flutterEmbedding"
+78-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:33:13-44
+79            android:value="2" />
+79-->C:\Users\123\Documents\main-lms\lms-learning-management-system\android\app\src\main\AndroidManifest.xml:34:13-30
+80
+81        <provider
+81-->[:image_picker_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+82            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+82-->[:image_picker_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+83            android:authorities="com.mtai.xirfadkaab.flutter.image_provider"
+83-->[:image_picker_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+84            android:exported="false"
+84-->[:image_picker_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+85            android:grantUriPermissions="true" >
+85-->[:image_picker_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+86            <meta-data
+86-->[:image_picker_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+87                android:name="android.support.FILE_PROVIDER_PATHS"
+87-->[:image_picker_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+88                android:resource="@xml/flutter_image_picker_file_paths" />
+88-->[:image_picker_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+89        </provider>
+90
+91        <activity
+91-->[:url_launcher_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+92            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+92-->[:url_launcher_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+93            android:exported="false"
+93-->[:url_launcher_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+94            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+94-->[:url_launcher_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+95        <activity
+95-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-20:47
+96            android:name="com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity"
+96-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-112
+97            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+97-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-137
+98            android:exported="false"
+98-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-37
+99            android:theme="@style/AppTheme" />
+99-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-44
+100        <activity
+100-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-24:55
+101            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity"
+101-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-120
+102            android:exported="false"
+102-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-37
+103            android:theme="@style/ThemeTransparent" />
+103-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-52
+104        <activity
+104-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-28:55
+105            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity"
+105-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-114
+106            android:exported="false"
+106-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-37
+107            android:theme="@style/ThemeTransparent" />
+107-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-52
+108        <activity
+108-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-33:55
+109            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+109-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-134
+110            android:exported="false"
+110-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-37
+111            android:launchMode="singleInstance"
+111-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-48
+112            android:theme="@style/ThemeTransparent" />
+112-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-52
+113        <activity
+113-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-38:55
+114            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+114-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-128
+115            android:exported="false"
+115-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-37
+116            android:launchMode="singleInstance"
+116-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-48
+117            android:theme="@style/ThemeTransparent" />
+117-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-52
+118
+119        <receiver
+119-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-43:40
+120            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver"
+120-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-119
+121            android:enabled="true"
+121-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-35
+122            android:exported="false" />
+122-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-37
+123
+124        <meta-data
+124-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:36
+125            android:name="io.flutter.embedded_views_preview"
+125-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-61
+126            android:value="true" />
+126-->[:flutter_inappwebview_android] C:\Users\123\Documents\main-lms\lms-learning-management-system\build\flutter_inappwebview_android\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-33
+127
+128        <provider
+128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\123\.gradle\caches\transforms-3\6ac6fcc9e7348ac6f5eaa7837c090230\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\123\.gradle\caches\transforms-3\6ac6fcc9e7348ac6f5eaa7837c090230\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+130            android:authorities="com.mtai.xirfadkaab.androidx-startup"
+130-->[androidx.emoji2:emoji2:1.2.0] C:\Users\123\.gradle\caches\transforms-3\6ac6fcc9e7348ac6f5eaa7837c090230\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+131            android:exported="false" >
+131-->[androidx.emoji2:emoji2:1.2.0] C:\Users\123\.gradle\caches\transforms-3\6ac6fcc9e7348ac6f5eaa7837c090230\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+132            <meta-data
+132-->[androidx.emoji2:emoji2:1.2.0] C:\Users\123\.gradle\caches\transforms-3\6ac6fcc9e7348ac6f5eaa7837c090230\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+133-->[androidx.emoji2:emoji2:1.2.0] C:\Users\123\.gradle\caches\transforms-3\6ac6fcc9e7348ac6f5eaa7837c090230\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+134                android:value="androidx.startup" />
+134-->[androidx.emoji2:emoji2:1.2.0] C:\Users\123\.gradle\caches\transforms-3\6ac6fcc9e7348ac6f5eaa7837c090230\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+135            <meta-data
+135-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\123\.gradle\caches\transforms-3\16de8608ac4526d728d299692c549c2f\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+136                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+136-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\123\.gradle\caches\transforms-3\16de8608ac4526d728d299692c549c2f\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+137                android:value="androidx.startup" />
+137-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\123\.gradle\caches\transforms-3\16de8608ac4526d728d299692c549c2f\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+138            <meta-data
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+139                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+140                android:value="androidx.startup" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+141        </provider>
+142
+143        <uses-library
+143-->[androidx.window:window:1.0.0-beta04] C:\Users\123\.gradle\caches\transforms-3\8e1a3b541fcb62348ef09f2b8ac0bb40\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+144            android:name="androidx.window.extensions"
+144-->[androidx.window:window:1.0.0-beta04] C:\Users\123\.gradle\caches\transforms-3\8e1a3b541fcb62348ef09f2b8ac0bb40\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+145            android:required="false" />
+145-->[androidx.window:window:1.0.0-beta04] C:\Users\123\.gradle\caches\transforms-3\8e1a3b541fcb62348ef09f2b8ac0bb40\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+146        <uses-library
+146-->[androidx.window:window:1.0.0-beta04] C:\Users\123\.gradle\caches\transforms-3\8e1a3b541fcb62348ef09f2b8ac0bb40\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+147            android:name="androidx.window.sidecar"
+147-->[androidx.window:window:1.0.0-beta04] C:\Users\123\.gradle\caches\transforms-3\8e1a3b541fcb62348ef09f2b8ac0bb40\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+148            android:required="false" />
+148-->[androidx.window:window:1.0.0-beta04] C:\Users\123\.gradle\caches\transforms-3\8e1a3b541fcb62348ef09f2b8ac0bb40\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+149
+150        <receiver
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+151            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+152            android:directBootAware="false"
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+153            android:enabled="true"
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+154            android:exported="true"
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+155            android:permission="android.permission.DUMP" >
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+156            <intent-filter>
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+157                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+158            </intent-filter>
+159            <intent-filter>
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+160                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+161            </intent-filter>
+162            <intent-filter>
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+163                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+164            </intent-filter>
+165            <intent-filter>
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+166                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\123\.gradle\caches\transforms-3\cffa0c8ef5c5820ca4af792a9e945be5\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+167            </intent-filter>
+168        </receiver>
+169    </application>
+170
+171</manifest>

@@ -13,7 +13,7 @@ class OrganizationRepository {
     try {
       EasyLoading.show(status: 'loading...');
       var response = await ApiService.getDio()!
-          .get("/organizations");
+          .get("https://www.xirfadkaab.so/api/v1/organizations");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

@@ -9,7 +9,8 @@ class ProfileRepository {
   static Future<ApiResponse<ProfileResponse>> getProfileRepositoryData() async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/student/my-profile");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/student/my-profile");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

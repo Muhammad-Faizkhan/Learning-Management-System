@@ -12,8 +12,9 @@ class CartAddRepository {
       int? cartId) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!
-          .post("/cart/store", data: {"webinar_id": "$cartId"});
+      var response = await ApiService.getDio()!.post(
+          "https://www.xirfadkaab.so/api/v1/cart/store",
+          data: {"webinar_id": "$cartId"});
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

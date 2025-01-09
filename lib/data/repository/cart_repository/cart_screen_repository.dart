@@ -6,11 +6,11 @@ import 'package:lms/data/model/cart_response/cart_screen_response.dart';
 import 'package:lms/data/response_structure/api_response.dart';
 
 class CartScreenRepository {
-  static Future<ApiResponse<CartResponse>>
-      getCartScreenRepositoryData() async {
+  static Future<ApiResponse<CartResponse>> getCartScreenRepositoryData() async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/cart/list");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/cart/list");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

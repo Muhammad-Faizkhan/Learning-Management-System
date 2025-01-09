@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\webview_flutter_android\\intermediates\\merged_res\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\8f6208444f0bc301f3b296a5ea482e4c\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\webview_flutter_android\\intermediates\\merged_res\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\8f6208444f0bc301f3b296a5ea482e4c\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\webview_flutter_android\\intermediates\\merged_res\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\8f6208444f0bc301f3b296a5ea482e4c\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\webview_flutter_android\\intermediates\\merged_res\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\8f6208444f0bc301f3b296a5ea482e4c\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    }
+]

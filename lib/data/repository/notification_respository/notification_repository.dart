@@ -6,10 +6,12 @@ import 'package:lms/data/model/notification_response/notification_response.dart'
 import 'package:lms/data/response_structure/api_response.dart';
 
 class NotificationRepository {
-  static Future<ApiResponse<NotificationResponse>> getNotificationRepositoryData() async {
+  static Future<ApiResponse<NotificationResponse>>
+      getNotificationRepositoryData() async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/notifications");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/notifications");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

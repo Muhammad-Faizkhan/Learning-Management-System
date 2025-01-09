@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\flutter_inappwebview_android\\intermediates\\merged_res\\release\\xml\\provider_paths.xml",
+        "source": "C:\\Users\\123\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\flutter_inappwebview_android-1.0.13\\android\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\flutter_inappwebview_android\\intermediates\\merged_res\\release\\xml\\image_share_filepaths.xml",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\de13c4665eff8c422baaa0ab98eb1db5\\transformed\\browser-1.6.0\\res\\xml\\image_share_filepaths.xml"
+    }
+]

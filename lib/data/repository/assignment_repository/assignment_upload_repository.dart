@@ -7,11 +7,12 @@ import 'package:lms/data/response_structure/api_response.dart';
 
 class AssignmentUploadRepository {
   static Future<ApiResponse<AssignmentUploadResponse>>
-      getAssignmentUploadRepositoryData(int? assignmentId,data) async {
+      getAssignmentUploadRepositoryData(int? assignmentId, data) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!
-          .post("/student/assignment/store/$assignmentId",data: data);
+      var response = await ApiService.getDio()!.post(
+          "https://www.xirfadkaab.so/api/v1/student/assignment/store/$assignmentId",
+          data: data);
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

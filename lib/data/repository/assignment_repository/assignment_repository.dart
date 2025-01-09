@@ -10,7 +10,8 @@ class AssignmentRepository {
       getAssignmentRepositoryData() async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/student/assignment");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/student/assignment");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

@@ -9,7 +9,8 @@ class PaymentListRepository {
   static Future<ApiResponse<PaymentListResponse>> getPaymentListApi() async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/payment-list");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/payment-list");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

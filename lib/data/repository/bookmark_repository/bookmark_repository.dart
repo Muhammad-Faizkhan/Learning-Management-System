@@ -10,7 +10,8 @@ class BookmarkRepository {
       getBookmarkRepositoryData() async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/student/bookmark");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/student/bookmark");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

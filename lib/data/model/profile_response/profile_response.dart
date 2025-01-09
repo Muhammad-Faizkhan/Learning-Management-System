@@ -4,8 +4,13 @@
 
 import 'dart:convert';
 
-ProfileResponse profileResponseFromJson(String str) =>
-    ProfileResponse.fromJson(json.decode(str));
+ProfileResponse profileResponseFromJson(String str) {
+  final jsonData = json.decode(str);
+  if (jsonData == null || jsonData is! Map<String, dynamic>) {
+    throw Exception("Invalid JSON data");
+  }
+  return ProfileResponse.fromJson(jsonData);
+}
 
 String profileResponseToJson(ProfileResponse data) =>
     json.encode(data.toJson());

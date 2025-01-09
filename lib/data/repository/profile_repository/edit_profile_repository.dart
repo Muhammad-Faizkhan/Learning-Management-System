@@ -1,4 +1,3 @@
-
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
@@ -9,12 +8,12 @@ import 'package:lms/data/model/profile_response/update_password_response.dart';
 import '../../response_structure/api_response.dart';
 
 class EditProfileRepository {
-    static Future<ApiResponse<EditProfileResponse>> editProfileData(
-       data) async {
+  static Future<ApiResponse<EditProfileResponse>> editProfileData(data) async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response =
-          await ApiService.getDio()!.post("/student/setting/update-profile", data: data);
+      var response = await ApiService.getDio()!.post(
+          "https://www.xirfadkaab.so/api/v1/student/setting/update-profile",
+          data: data);
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {
@@ -56,7 +55,8 @@ class EditProfileRepository {
     }
   }
 
-   static Future<ApiResponse<UpdatePasswordResponse>> updatePassword(data) async {
+  static Future<ApiResponse<UpdatePasswordResponse>> updatePassword(
+      data) async {
     try {
       EasyLoading.show(status: 'loading...');
       var response = await ApiService.getDio()!
@@ -101,5 +101,4 @@ class EditProfileRepository {
       }
     }
   }
-
 }

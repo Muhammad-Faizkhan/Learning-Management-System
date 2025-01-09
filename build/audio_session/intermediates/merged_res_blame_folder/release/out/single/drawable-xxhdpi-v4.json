@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\audio_session\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\media_session_service_notification_ic_skip_to_next.png",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\64fa2826236559750cadd1c8c28e2182\\transformed\\jetified-media2-session-1.2.1\\res\\drawable-xxhdpi-v4\\media_session_service_notification_ic_skip_to_next.png"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\audio_session\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\media_session_service_notification_ic_music_note.png",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\64fa2826236559750cadd1c8c28e2182\\transformed\\jetified-media2-session-1.2.1\\res\\drawable-xxhdpi-v4\\media_session_service_notification_ic_music_note.png"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\audio_session\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\media_session_service_notification_ic_skip_to_previous.png",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\64fa2826236559750cadd1c8c28e2182\\transformed\\jetified-media2-session-1.2.1\\res\\drawable-xxhdpi-v4\\media_session_service_notification_ic_skip_to_previous.png"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\audio_session\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\media_session_service_notification_ic_pause.png",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\64fa2826236559750cadd1c8c28e2182\\transformed\\jetified-media2-session-1.2.1\\res\\drawable-xxhdpi-v4\\media_session_service_notification_ic_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\123\\Documents\\main-lms\\lms-learning-management-system\\build\\audio_session\\intermediates\\merged_res\\release\\drawable-xxhdpi-v4\\media_session_service_notification_ic_play.png",
+        "source": "C:\\Users\\123\\.gradle\\caches\\transforms-3\\64fa2826236559750cadd1c8c28e2182\\transformed\\jetified-media2-session-1.2.1\\res\\drawable-xxhdpi-v4\\media_session_service_notification_ic_play.png"
+    }
+]

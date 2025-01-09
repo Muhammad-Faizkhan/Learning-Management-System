@@ -6,10 +6,12 @@ import 'package:lms/data/model/dashbaord_response/dashboard_response.dart';
 import 'package:lms/data/response_structure/api_response.dart';
 
 class DashboardRepsitory {
-  static Future<ApiResponse<DashboardResponse>> getDashboardRepsitoryData() async {
+  static Future<ApiResponse<DashboardResponse>>
+      getDashboardRepsitoryData() async {
     try {
       EasyLoading.show(status: 'loading...');
-      var response = await ApiService.getDio()!.get("/student/dashboard");
+      var response = await ApiService.getDio()!
+          .get("https://www.xirfadkaab.so/api/v1/student/dashboard");
       EasyLoading.dismiss();
       if (response.statusCode == 200) {
         if (kDebugMode) {

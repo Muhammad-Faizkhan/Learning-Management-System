@@ -26,7 +26,7 @@ class AcademyContent extends StatelessWidget {
                   ),
                   Center(
                     child: CustomText(
-                      text: "Why Choose Onest Academy",
+                      text: "Why Choose xirfadkaab",
                       color: Color(0xff212736),
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
