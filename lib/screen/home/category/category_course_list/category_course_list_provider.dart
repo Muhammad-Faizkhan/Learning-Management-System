@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lms/data/model/category_response/category_course_list_response.dart';
-import 'package:lms/data/repository/category_repository/category_details_repository.dart';
+import 'package:xirfadkaab/data/model/category_response/category_course_list_response.dart';
+import 'package:xirfadkaab/data/repository/category_repository/category_details_repository.dart';
 
 class CategoryCourseListProvider extends ChangeNotifier {
   CategoryCourseListResponse? categoryDetailsResponse;

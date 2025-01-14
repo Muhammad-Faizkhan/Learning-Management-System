@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:lms/data/dio_service/api_service.dart';
-import 'package:lms/data/model/cart_response/cart_screen_response.dart';
-import 'package:lms/data/response_structure/api_response.dart';
+import 'package:xirfadkaab/data/dio_service/api_service.dart';
+import 'package:xirfadkaab/data/model/cart_response/cart_screen_response.dart';
+import 'package:xirfadkaab/data/response_structure/api_response.dart';
 
 class CartScreenRepository {
   static Future<ApiResponse<CartResponse>> getCartScreenRepositoryData() async {

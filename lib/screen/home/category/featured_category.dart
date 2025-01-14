@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/category/category_course_list/category_course_list_screen.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/screen/home/category/category_course_list/category_course_list_screen.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class FeaturedCategory extends StatelessWidget {
   final List<dynamic>? categories;

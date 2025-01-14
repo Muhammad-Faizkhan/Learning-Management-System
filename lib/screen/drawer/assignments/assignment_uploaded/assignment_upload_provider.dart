@@ -3,9 +3,9 @@ import 'package:dio/dio.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:lms/data/repository/assignment_repository/assignment_upload_repository.dart';
-import 'package:lms/screen/drawer/assignments/assignments_screen/assignments_screen.dart';
-import 'package:lms/utils/nav_utail.dart';
+import 'package:xirfadkaab/data/repository/assignment_repository/assignment_upload_repository.dart';
+import 'package:xirfadkaab/screen/drawer/assignments/assignments_screen/assignments_screen.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
 
 class AssignmentUploadProvider extends ChangeNotifier {
   File? file;

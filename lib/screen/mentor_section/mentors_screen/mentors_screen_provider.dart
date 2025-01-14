@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:lms/data/model/mentors_response/mentors_response.dart';
-import 'package:lms/data/repository/metors_repository/mentors_repository.dart';
+import 'package:xirfadkaab/data/model/mentors_response/mentors_response.dart';
+import 'package:xirfadkaab/data/repository/metors_repository/mentors_repository.dart';
 
 class MentorsScreenProvider extends ChangeNotifier {
   MentorsResponse? mentorsResponse;

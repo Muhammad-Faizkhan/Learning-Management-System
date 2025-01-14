@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/data/model/mentors_response/mentors_profile_details_response.dart';
-import 'package:lms/screen/home/course_details/course_details_screen/course_details_screen.dart';
-import 'package:lms/screen/home/widgets/most_popular_cart.dart';
+import 'package:xirfadkaab/data/model/mentors_response/mentors_profile_details_response.dart';
+import 'package:xirfadkaab/screen/home/course_details/course_details_screen/course_details_screen.dart';
+import 'package:xirfadkaab/screen/home/widgets/most_popular_cart.dart';
 
 import '../../../../data/model/organization_response/organization_details_response.dart';
 
@@ -15,7 +15,8 @@ class OrganizationCourses extends StatelessWidget {
   Widget build(BuildContext context) {
     return SliverGrid.builder(
         itemCount:
-        organizationDetailsResponse?.data?.organization?.courses?.length ?? 0,
+            organizationDetailsResponse?.data?.organization?.courses?.length ??
+                0,
         // physics: const NeverScrollableScrollPhysics(),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
@@ -24,7 +25,7 @@ class OrganizationCourses extends StatelessWidget {
             mainAxisSpacing: 16.h),
         itemBuilder: (context, index) {
           final data =
-          organizationDetailsResponse?.data?.organization?.courses?[index];
+              organizationDetailsResponse?.data?.organization?.courses?[index];
           return CoursesCart(
             assetImage: data?.image ?? '',
             title: data?.title ?? '',

@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:lms/data/dio_service/api_service.dart';
-import 'package:lms/data/model/profile_response/edit_profile_response.dart';
-import 'package:lms/data/model/profile_response/update_password_response.dart';
+import 'package:xirfadkaab/data/dio_service/api_service.dart';
+import 'package:xirfadkaab/data/model/profile_response/edit_profile_response.dart';
+import 'package:xirfadkaab/data/model/profile_response/update_password_response.dart';
 
 import '../../response_structure/api_response.dart';
 

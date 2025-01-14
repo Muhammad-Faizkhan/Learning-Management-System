@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/data/model/dashbaord_response/dashboard_response.dart';
-import 'package:lms/screen/dashboard/widgets/summary_cart.dart';
+import 'package:xirfadkaab/data/model/dashbaord_response/dashboard_response.dart';
+import 'package:xirfadkaab/screen/dashboard/widgets/summary_cart.dart';
 
 // ignore: must_be_immutable
 class SummaryContent extends StatelessWidget {

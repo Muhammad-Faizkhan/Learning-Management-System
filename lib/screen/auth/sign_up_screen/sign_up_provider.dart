@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:lms/data/body_response/auth_body/body_sign_up.dart';
-import 'package:lms/data/repository/auth_repository/auth_repository.dart';
-import 'package:lms/screen/auth/verification_screen.dart';
-import 'package:lms/utils/nav_utail.dart';
+import 'package:xirfadkaab/data/body_response/auth_body/body_sign_up.dart';
+import 'package:xirfadkaab/data/repository/auth_repository/auth_repository.dart';
+import 'package:xirfadkaab/screen/auth/verification_screen.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
 
 class SignUpProvider extends ChangeNotifier {
   TextEditingController nameController = TextEditingController();
@@ -19,10 +19,11 @@ class SignUpProvider extends ChangeNotifier {
       "password_confirmation": confirmPasswordController.text
     };
     var bodySignUp = BodySignUp(
-        email: emailController.text,
-        password: passController.text,
-        fullName: nameController.text,
-        passwordConfirmation: confirmPasswordController.text,);
+      email: emailController.text,
+      password: passController.text,
+      fullName: nameController.text,
+      passwordConfirmation: confirmPasswordController.text,
+    );
     var apiResponse = await AuthRepository.getSignUp(fromData);
 
     if (apiResponse.success == true) {

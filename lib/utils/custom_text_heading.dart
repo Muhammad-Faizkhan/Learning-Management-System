@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lms/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
 
 class TypographyWhite16 extends StatelessWidget {
   final String text;

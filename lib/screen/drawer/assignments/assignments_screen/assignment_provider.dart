@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lms/data/model/assignment_response/assignment_response.dart';
-import 'package:lms/data/repository/assignment_repository/assignment_repository.dart';
+import 'package:xirfadkaab/data/model/assignment_response/assignment_response.dart';
+import 'package:xirfadkaab/data/repository/assignment_repository/assignment_repository.dart';
 
 class AssignmentProvider extends ChangeNotifier {
   AssignmentResponse? assignmentResponse;

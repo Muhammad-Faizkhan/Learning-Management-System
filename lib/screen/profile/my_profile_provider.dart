@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:lms/data/model/profile_response/profile_response.dart';
-import 'package:lms/data/model/profile_response/user_certificate_response.dart';
-import 'package:lms/data/repository/profile_repository/profile_repository.dart';
-import 'package:lms/data/repository/profile_repository/user_certificate_repository.dart';
-import 'package:lms/utils/shared_preferences.dart';
+import 'package:xirfadkaab/data/model/profile_response/profile_response.dart';
+import 'package:xirfadkaab/data/model/profile_response/user_certificate_response.dart';
+import 'package:xirfadkaab/data/repository/profile_repository/profile_repository.dart';
+import 'package:xirfadkaab/data/repository/profile_repository/user_certificate_repository.dart';
+import 'package:xirfadkaab/utils/shared_preferences.dart';
 
 class MyProfileProvider extends ChangeNotifier {
   ProfileResponse? profileResponse;

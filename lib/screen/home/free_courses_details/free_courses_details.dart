@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/widgets/free_courses_content.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
-import 'package:lms/widgets/search_field.dart';
+import 'package:xirfadkaab/screen/home/widgets/free_courses_content.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/widgets/search_field.dart';
 
 class FreeCoursesDetails extends StatelessWidget {
   const FreeCoursesDetails({super.key});

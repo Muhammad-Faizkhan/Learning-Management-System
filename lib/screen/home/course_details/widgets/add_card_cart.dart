@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
 
 class PaymentListCart extends StatelessWidget {
   final String? image;
@@ -12,7 +12,7 @@ class PaymentListCart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0,vertical: 6),
+      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 6),
       child: Container(
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
@@ -34,8 +34,7 @@ class PaymentListCart extends StatelessWidget {
                   fit: BoxFit.cover,
                   imageUrl: image ?? '',
                   placeholder: (context, url) => Center(
-                    child:
-                    Image.asset("assets/home_page/ic_no_image.png"),
+                    child: Image.asset("assets/home_page/ic_no_image.png"),
                   ),
                   errorWidget: (context, url, error) =>
                       Image.asset("assets/home_page/ic_no_image.png"),
@@ -55,7 +54,9 @@ class PaymentListCart extends StatelessWidget {
                         fontWeight: FontWeight.w700,
                         color: AppColors.title),
                   ),
-                  const SizedBox(height: 5,),
+                  const SizedBox(
+                    height: 5,
+                  ),
                   Text(
                     'Pay With $cardNumber',
                     // 'Add New Card',

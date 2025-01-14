@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/drawer/meetings/meetings_details/meetings_details_screen.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/screen/drawer/meetings/meetings_details/meetings_details_screen.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 import '../../widgets/list_meetings.dart';
 

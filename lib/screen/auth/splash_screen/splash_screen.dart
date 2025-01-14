@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/bottom_nav_bar/bottom_nav_bar.dart';
-import 'package:lms/screen/onboarding/onboarding_screen.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/utils/shared_preferences.dart';
+import 'package:xirfadkaab/screen/home/bottom_nav_bar/bottom_nav_bar.dart';
+import 'package:xirfadkaab/screen/onboarding/onboarding_screen.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/utils/shared_preferences.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

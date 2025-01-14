@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
-import 'package:lms/data/model/course_details_response/course_details_response.dart';
-import 'package:lms/screen/home/course_details/course_details_screen/course_details_provider.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/data/model/course_details_response/course_details_response.dart';
+import 'package:xirfadkaab/screen/home/course_details/course_details_screen/course_details_provider.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 import 'package:provider/provider.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
@@ -20,7 +20,6 @@ class CourseDetailsContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     final provider = context.read<CourseDetailsProvider>();
 
     return Column(
@@ -49,7 +48,7 @@ class CourseDetailsContent extends StatelessWidget {
             },
           ),
           builder: (context, child) {
-            return SizedBox(height: 400.0.h,child: child);
+            return SizedBox(height: 400.0.h, child: child);
           },
         ),
         Padding(

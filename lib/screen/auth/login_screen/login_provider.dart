@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:lms/data/body_response/auth_body/body_login.dart';
-import 'package:lms/data/repository/auth_repository/auth_repository.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/utils/shared_preferences.dart';
+import 'package:xirfadkaab/data/body_response/auth_body/body_login.dart';
+import 'package:xirfadkaab/data/repository/auth_repository/auth_repository.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/utils/shared_preferences.dart';
 
 import '../../../data/model/auth_response/login_response.dart';
 import '../../home/bottom_nav_bar/bottom_nav_bar.dart';

@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class BestSellingCoursesCart extends StatelessWidget {
   final String? image, courseTitle, title;

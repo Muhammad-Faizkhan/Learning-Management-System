@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/auth/widgets/text_form_field.dart';
-import 'package:lms/screen/profile/edit_profile_screen/edit_profile_provider.dart';
-import 'package:lms/widgets/elevated_button_widget.dart';
+import 'package:xirfadkaab/screen/auth/widgets/text_form_field.dart';
+import 'package:xirfadkaab/screen/profile/edit_profile_screen/edit_profile_provider.dart';
+import 'package:xirfadkaab/widgets/elevated_button_widget.dart';
 
 class BasicInfoContent extends StatelessWidget {
   final EditProfileProvider? provider;

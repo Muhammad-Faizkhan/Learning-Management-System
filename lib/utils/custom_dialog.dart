@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:lms/utils/nav_utail.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
 
 import '../screen/home/home_screen/home_screen.dart';
 
-class CustomDialog{
- static Future<void> showMessage(
-      context) async {
+class CustomDialog {
+  static Future<void> showMessage(context) async {
     return showDialog<void>(
       context: context,
       barrierDismissible: false, // user must tap button!
@@ -13,8 +12,11 @@ class CustomDialog{
         return AlertDialog(
           content: const SingleChildScrollView(
             child: ListBody(
-              children: <Widget> [
-                Text("Something went wrong",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w500),),
+              children: <Widget>[
+                Text(
+                  "Something went wrong",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                ),
               ],
             ),
           ),

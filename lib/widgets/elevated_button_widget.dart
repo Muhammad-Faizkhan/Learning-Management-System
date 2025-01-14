@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
 
 // ignore: must_be_immutable
 class ElevatedButtonWidget extends StatelessWidget {
@@ -17,7 +17,8 @@ class ElevatedButtonWidget extends StatelessWidget {
       child: ElevatedButton(
           style: ElevatedButton.styleFrom(
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(8.0)), backgroundColor: AppColors.primary),
+                  borderRadius: BorderRadius.circular(8.0)),
+              backgroundColor: AppColors.primary),
           onPressed: onPressed,
           child: Text(
             '$text',

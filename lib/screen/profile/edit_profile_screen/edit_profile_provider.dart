@@ -4,12 +4,12 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:lms/data/model/profile_response/edit_profile_response.dart';
-import 'package:lms/data/repository/profile_repository/edit_profile_repository.dart';
-import 'package:lms/screen/auth/login_screen/login_screen.dart';
-import 'package:lms/screen/home/bottom_nav_bar/bottom_nav_bar.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/utils/shared_preferences.dart';
+import 'package:xirfadkaab/data/model/profile_response/edit_profile_response.dart';
+import 'package:xirfadkaab/data/repository/profile_repository/edit_profile_repository.dart';
+import 'package:xirfadkaab/screen/auth/login_screen/login_screen.dart';
+import 'package:xirfadkaab/screen/home/bottom_nav_bar/bottom_nav_bar.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/utils/shared_preferences.dart';
 import 'package:dio/dio.dart' as dio;
 
 import 'components/custom_dialog_image.dart';

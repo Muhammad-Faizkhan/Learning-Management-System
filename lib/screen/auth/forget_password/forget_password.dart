@@ -1,11 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/auth/forget_password/forget_password_provider.dart';
-import 'package:lms/screen/auth/widgets/elevated_button_widget.dart';
-import 'package:lms/screen/auth/widgets/text_form_field.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/screen/auth/forget_password/forget_password_provider.dart';
+import 'package:xirfadkaab/screen/auth/widgets/elevated_button_widget.dart';
+import 'package:xirfadkaab/screen/auth/widgets/text_form_field.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 import 'package:provider/provider.dart';
 
 class ForgetPassword extends StatelessWidget {

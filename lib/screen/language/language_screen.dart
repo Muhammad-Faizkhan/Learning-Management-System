@@ -2,8 +2,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:lms/screen/home/bottom_nav_bar/bottom_nav_bar.dart';
-import 'package:lms/utils/shared_preferences.dart';
+import 'package:xirfadkaab/screen/home/bottom_nav_bar/bottom_nav_bar.dart';
+import 'package:xirfadkaab/utils/shared_preferences.dart';
 import 'package:lottie/lottie.dart';
 
 class LanguageScreen extends StatefulWidget {

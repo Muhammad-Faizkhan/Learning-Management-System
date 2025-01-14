@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:lms/web/web_top_nav_bar.dart';
-import 'package:lms/web/widgets/academy_content.dart';
-import 'package:lms/web/widgets/most_treanding_category_content.dart';
-import 'package:lms/web/widgets/web_constructors_content.dart';
-import 'package:lms/web/widgets/web_most_popular_content.dart';
-import 'package:lms/web/widgets/web_organization_content.dart';
-import 'package:lms/web/widgets/web_recommanded_content.dart';
-import 'package:lms/web/widgets/web_treanding_content.dart';
+import 'package:xirfadkaab/web/web_top_nav_bar.dart';
+import 'package:xirfadkaab/web/widgets/academy_content.dart';
+import 'package:xirfadkaab/web/widgets/most_treanding_category_content.dart';
+import 'package:xirfadkaab/web/widgets/web_constructors_content.dart';
+import 'package:xirfadkaab/web/widgets/web_most_popular_content.dart';
+import 'package:xirfadkaab/web/widgets/web_organization_content.dart';
+import 'package:xirfadkaab/web/widgets/web_recommanded_content.dart';
+import 'package:xirfadkaab/web/widgets/web_treanding_content.dart';
 import 'widgets/header_banner_section.dart';
 import 'widgets/web_top_rated_content.dart';
 
@@ -43,4 +43,3 @@ class WebLandingPage extends StatelessWidget {
     );
   }
 }
-

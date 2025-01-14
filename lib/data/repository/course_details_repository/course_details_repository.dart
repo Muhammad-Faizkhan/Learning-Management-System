@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:lms/data/dio_service/api_service.dart';
-import 'package:lms/data/model/bookmark_response/bookmark_response.dart';
-import 'package:lms/data/model/course_details_response/course_details_response.dart';
-import 'package:lms/data/model/course_enroll_response/course_enroll_response.dart';
-import 'package:lms/data/response_structure/api_response.dart';
+import 'package:xirfadkaab/data/dio_service/api_service.dart';
+import 'package:xirfadkaab/data/model/bookmark_response/bookmark_response.dart';
+import 'package:xirfadkaab/data/model/course_details_response/course_details_response.dart';
+import 'package:xirfadkaab/data/model/course_enroll_response/course_enroll_response.dart';
+import 'package:xirfadkaab/data/response_structure/api_response.dart';
 
 class CourseDetailsRepository {
   /// Course Details API -----------------

@@ -2,12 +2,12 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/course_details/course_details_screen/course_details_screen.dart';
-import 'package:lms/screen/home/course_details/payment_request/course_details_webview.dart';
-import 'package:lms/screen/home/widgets/enrole_now_button.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/screen/home/course_details/course_details_screen/course_details_screen.dart';
+import 'package:xirfadkaab/screen/home/course_details/payment_request/course_details_webview.dart';
+import 'package:xirfadkaab/screen/home/widgets/enrole_now_button.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class CoursesCart extends StatelessWidget {
   final Function()? onTap;

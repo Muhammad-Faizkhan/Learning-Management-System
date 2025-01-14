@@ -1,14 +1,14 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/auth/widgets/elevated_button_widget.dart';
-import 'package:lms/screen/home/cart/cart_screen/cart_screen_provider.dart';
-import 'package:lms/screen/home/cart/components/cart_screen_design.dart';
-import 'package:lms/screen/home/course_details/payment_list/payment_method.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/widgets/bookmark_app_bar.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/screen/auth/widgets/elevated_button_widget.dart';
+import 'package:xirfadkaab/screen/home/cart/cart_screen/cart_screen_provider.dart';
+import 'package:xirfadkaab/screen/home/cart/components/cart_screen_design.dart';
+import 'package:xirfadkaab/screen/home/course_details/payment_list/payment_method.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/widgets/bookmark_app_bar.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 import 'package:provider/provider.dart';
 
 class CartScreen extends StatelessWidget {

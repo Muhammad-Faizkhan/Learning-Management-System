@@ -2,12 +2,12 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/course_details/payment_request/course_details_webview.dart';
-import 'package:lms/screen/profile/my_profile_provider.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/screen/home/course_details/payment_request/course_details_webview.dart';
+import 'package:xirfadkaab/screen/profile/my_profile_provider.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 import 'package:provider/provider.dart';
 
 class MyCoursesScreen extends StatefulWidget {

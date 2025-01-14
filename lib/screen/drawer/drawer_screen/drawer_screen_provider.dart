@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lms/utils/shared_preferences.dart';
+import 'package:xirfadkaab/utils/shared_preferences.dart';
 
 class DrawerScreenProvider extends ChangeNotifier {
   String? userName;

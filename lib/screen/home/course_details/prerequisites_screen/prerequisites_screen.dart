@@ -1,9 +1,9 @@
 // import 'package:flutter/material.dart';
 // import 'package:flutter_screenutil/flutter_screenutil.dart';
-// import 'package:lms/data/model/favorites_response/favorites_toggle_response.dart';
-// import 'package:lms/screen/home/course_details/course_details_screen/course_details_screen.dart';
-// import 'package:lms/screen/home/widgets/most_popular_cart.dart';
-// import 'package:lms/widgets/custom_app_bar.dart';
+// import 'package:xirfadkaab/data/model/favorites_response/favorites_toggle_response.dart';
+// import 'package:xirfadkaab/screen/home/course_details/course_details_screen/course_details_screen.dart';
+// import 'package:xirfadkaab/screen/home/widgets/most_popular_cart.dart';
+// import 'package:xirfadkaab/widgets/custom_app_bar.dart';
 
 // class PrerequisitesScreen extends StatelessWidget {
 //   final FavoritesToggleResponse? favoritesToggleResponse;

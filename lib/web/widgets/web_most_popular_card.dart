@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class WebMostPopularCard extends StatelessWidget {
   const WebMostPopularCard({
@@ -66,7 +66,8 @@ class WebMostPopularCard extends StatelessWidget {
                     height: 20,
                   ),
                   const CustomText(
-                    text: '100 Days of Code: The Complete Python\nPro Bootcamp for 2022',
+                    text:
+                        '100 Days of Code: The Complete Python\nPro Bootcamp for 2022',
                     color: AppColors.title,
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
@@ -147,7 +148,7 @@ class WebMostPopularCard extends StatelessWidget {
                       const SizedBox(
                         width: 15,
                       ),
-                       const CustomText(
+                      const CustomText(
                         text: '7.3',
                         color: AppColors.title,
                         fontSize: 15,

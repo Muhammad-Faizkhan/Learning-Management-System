@@ -2,10 +2,10 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/mentor_section/mentors_profile_details/mentors_profile_details_provider.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_text.dart';
-import 'package:lms/data/model/mentors_response/mentors_response.dart';
+import 'package:xirfadkaab/screen/mentor_section/mentors_profile_details/mentors_profile_details_provider.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
+import 'package:xirfadkaab/data/model/mentors_response/mentors_response.dart';
 
 class InstructorInfoContent extends StatelessWidget {
   final Instructor? users;

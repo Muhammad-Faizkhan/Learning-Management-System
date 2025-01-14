@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
 
 class AddMobileWalletCart extends StatelessWidget {
   final String? image;
   final String? text;
   final String? cardNumber;
-  const AddMobileWalletCart({super.key, this.image, this.text, this.cardNumber});
+  const AddMobileWalletCart(
+      {super.key, this.image, this.text, this.cardNumber});
 
   @override
   Widget build(BuildContext context) {

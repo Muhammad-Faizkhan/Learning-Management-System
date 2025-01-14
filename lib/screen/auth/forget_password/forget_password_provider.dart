@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:lms/data/repository/auth_repository/auth_repository.dart';
-import 'package:lms/screen/auth/login_screen/login_screen.dart';
-import 'package:lms/utils/nav_utail.dart';
+import 'package:xirfadkaab/data/repository/auth_repository/auth_repository.dart';
+import 'package:xirfadkaab/screen/auth/login_screen/login_screen.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
 
 class ForgetPasswordProvider extends ChangeNotifier {
   TextEditingController emailController = TextEditingController();

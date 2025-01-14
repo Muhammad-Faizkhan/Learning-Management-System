@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lms/data/model/see_all_response/see_all_response.dart';
-import 'package:lms/data/repository/see_all_repository/see_all_repository.dart';
+import 'package:xirfadkaab/data/model/see_all_response/see_all_response.dart';
+import 'package:xirfadkaab/data/repository/see_all_repository/see_all_repository.dart';
 
 class SeeAllScreenProvider extends ChangeNotifier {
   SeeAllResponse? seeAllResponse;
@@ -9,8 +9,7 @@ class SeeAllScreenProvider extends ChangeNotifier {
     sellAllScreenApi(slugName);
   }
   void sellAllScreenApi(String? slugName) async {
-    var apiResponse =
-        await SeeAllRepository.getSeeAllRepositoryData(slugName);
+    var apiResponse = await SeeAllRepository.getSeeAllRepositoryData(slugName);
 
     if (apiResponse.success == true) {
       seeAllResponse = apiResponse.data;

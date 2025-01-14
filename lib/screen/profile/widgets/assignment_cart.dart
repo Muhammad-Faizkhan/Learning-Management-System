@@ -1,12 +1,12 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/data/model/profile_response/profile_response.dart';
-import 'package:lms/screen/drawer/assignments/assignments_details/assignments_details.dart';
-import 'package:lms/screen/drawer/widgets/all_assignment_list_cart.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/data/model/profile_response/profile_response.dart';
+import 'package:xirfadkaab/screen/drawer/assignments/assignments_details/assignments_details.dart';
+import 'package:xirfadkaab/screen/drawer/widgets/all_assignment_list_cart.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class AssignmentCart extends StatelessWidget {
   final ProfileResponse? profileResponse;

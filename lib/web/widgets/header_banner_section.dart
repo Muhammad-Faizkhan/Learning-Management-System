@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/custom_text_heading.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/custom_text_heading.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class HeaderBannerSection extends StatelessWidget {
   const HeaderBannerSection({
@@ -32,7 +32,8 @@ class HeaderBannerSection extends StatelessWidget {
                           height: 16,
                         ),
                         const CustomText(
-                          text: "Lorem ipsum dolor sit amet consectetur. Scelerisque interdum eget vel malesuada eget metus et. Volutpat quis imperdiet pulvinar vitae.",
+                          text:
+                              "Lorem ipsum dolor sit amet consectetur. Scelerisque interdum eget vel malesuada eget metus et. Volutpat quis imperdiet pulvinar vitae.",
                           fontSize: 16,
                           color: AppColors.body,
                           height: 1.5,

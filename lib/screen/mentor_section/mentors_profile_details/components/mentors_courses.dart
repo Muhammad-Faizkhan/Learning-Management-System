@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/data/model/mentors_response/mentors_profile_details_response.dart';
-import 'package:lms/screen/home/course_details/course_details_screen/course_details_screen.dart';
-import 'package:lms/screen/home/widgets/most_popular_cart.dart';
+import 'package:xirfadkaab/data/model/mentors_response/mentors_profile_details_response.dart';
+import 'package:xirfadkaab/screen/home/course_details/course_details_screen/course_details_screen.dart';
+import 'package:xirfadkaab/screen/home/widgets/most_popular_cart.dart';
 
 class MentorsCourses extends StatelessWidget {
   final MentorsDetailsResponse? mentorsDetailsResponse;

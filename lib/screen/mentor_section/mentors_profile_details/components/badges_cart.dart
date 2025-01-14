@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:lms/data/model/mentors_response/mentors_profile_details_response.dart';
+import 'package:xirfadkaab/data/model/mentors_response/mentors_profile_details_response.dart';
 
 import '../../../../data/model/organization_response/organization_details_response.dart';
 
 class BadgesCart extends StatelessWidget {
   //final OrganizationDetailsModel? organizationDetailsResponse;
-  const BadgesCart({super.key,});
+  const BadgesCart({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

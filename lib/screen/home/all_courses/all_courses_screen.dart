@@ -1,11 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/all_courses/all_courses_provider.dart';
-import 'package:lms/screen/home/all_courses/components/all_courses_cart.dart';
-import 'package:lms/screen/home/course_details/course_details_screen/course_details_screen.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/nav_utail.dart';
+import 'package:xirfadkaab/screen/home/all_courses/all_courses_provider.dart';
+import 'package:xirfadkaab/screen/home/all_courses/components/all_courses_cart.dart';
+import 'package:xirfadkaab/screen/home/course_details/course_details_screen/course_details_screen.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
 import 'package:provider/provider.dart';
 
 class AllCoursesScreen extends StatelessWidget {

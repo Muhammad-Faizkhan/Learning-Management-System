@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/data/model/home_response/home_response.dart';
-import 'package:lms/screen/home/widgets/treanding_course_card.dart';
+import 'package:xirfadkaab/data/model/home_response/home_response.dart';
+import 'package:xirfadkaab/screen/home/widgets/treanding_course_card.dart';
 
 import '../course_details/course_details_screen/course_details_screen.dart';
 
@@ -35,9 +35,12 @@ class TrendingPageContent extends StatelessWidget {
             isPurchased: latestClasses?[index].isPurchased,
             userId: userId,
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) =>
-                      CourseDetailsScreen(id: latestClasses?[index].id),));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) =>
+                        CourseDetailsScreen(id: latestClasses?[index].id),
+                  ));
             },
           );
         },

@@ -1,12 +1,12 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/profile/edit_profile_screen/edit_profile_provider.dart';
-import 'package:lms/screen/profile/widgets/basic_info_content.dart';
-import 'package:lms/screen/profile/widgets/password_content.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/screen/profile/edit_profile_screen/edit_profile_provider.dart';
+import 'package:xirfadkaab/screen/profile/widgets/basic_info_content.dart';
+import 'package:xirfadkaab/screen/profile/widgets/password_content.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 import 'package:provider/provider.dart';
 
 class EditProfileScreen extends StatefulWidget {

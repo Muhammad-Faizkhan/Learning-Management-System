@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/widgets/shimmers.dart';
+import 'package:xirfadkaab/widgets/shimmers.dart';
 
 class CourseDetailsShimmer extends StatelessWidget {
   const CourseDetailsShimmer({

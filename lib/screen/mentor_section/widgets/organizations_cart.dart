@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/data/model/mentors_response/mentors_response.dart';
-import 'package:lms/screen/mentor_section/mentors_profile_details/mentors_profile_details.dart';
-import 'package:lms/screen/mentor_section/widgets/mentors_design_cart.dart';
+import 'package:xirfadkaab/data/model/mentors_response/mentors_response.dart';
+import 'package:xirfadkaab/screen/mentor_section/mentors_profile_details/mentors_profile_details.dart';
+import 'package:xirfadkaab/screen/mentor_section/widgets/mentors_design_cart.dart';
 
 class OrganizationsCart extends StatelessWidget {
   final MentorsResponse? mentorsResponse;

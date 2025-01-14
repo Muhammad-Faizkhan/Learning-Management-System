@@ -1,13 +1,13 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:lms/data/body_response/auth_body/body_login.dart';
-import 'package:lms/data/body_response/auth_body/body_verificaton.dart';
-import 'package:lms/data/dio_service/api_service.dart';
-import 'package:lms/data/model/auth_response/forget_password_model.dart';
-import 'package:lms/data/model/auth_response/login_response.dart';
-import 'package:lms/data/model/auth_response/response_sign_up.dart';
-import 'package:lms/data/model/auth_response/response_verification_field.dart';
+import 'package:xirfadkaab/data/body_response/auth_body/body_login.dart';
+import 'package:xirfadkaab/data/body_response/auth_body/body_verificaton.dart';
+import 'package:xirfadkaab/data/dio_service/api_service.dart';
+import 'package:xirfadkaab/data/model/auth_response/forget_password_model.dart';
+import 'package:xirfadkaab/data/model/auth_response/login_response.dart';
+import 'package:xirfadkaab/data/model/auth_response/response_sign_up.dart';
+import 'package:xirfadkaab/data/model/auth_response/response_verification_field.dart';
 
 import '../../response_structure/api_response.dart';
 

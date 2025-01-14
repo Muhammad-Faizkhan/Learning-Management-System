@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:lms/data/model/all_courses_response/all_courses_response.dart';
-import 'package:lms/data/repository/all_courses_repository/all_courses_repository.dart';
+import 'package:xirfadkaab/data/model/all_courses_response/all_courses_response.dart';
+import 'package:xirfadkaab/data/repository/all_courses_repository/all_courses_repository.dart';
 
 class AllCoursesProvider extends ChangeNotifier {
   AllCoursesResponse? allCoursesResponse;

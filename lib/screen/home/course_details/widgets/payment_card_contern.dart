@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/course_details/widgets/add_card_cart.dart';
+import 'package:xirfadkaab/screen/home/course_details/widgets/add_card_cart.dart';
 
 class PaymentCardContent extends StatelessWidget {
   const PaymentCardContent({
@@ -29,7 +29,6 @@ class PaymentCardContent extends StatelessWidget {
             cardNumber: '**** 5678',
           ),
           SizedBox(
-
             height: 12.h,
           ),
           const PaymentListCart(

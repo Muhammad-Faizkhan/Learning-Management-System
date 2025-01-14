@@ -1,10 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/data/model/mentors_response/mentors_response.dart';
-import 'package:lms/data/model/organization_response/organizetion_model.dart';
-import 'package:lms/screen/mentor_section/mentors_profile_details/mentors_profile_details.dart';
-import 'package:lms/screen/mentor_section/widgets/mentors_design_cart.dart';
+import 'package:xirfadkaab/data/model/mentors_response/mentors_response.dart';
+import 'package:xirfadkaab/data/model/organization_response/organizetion_model.dart';
+import 'package:xirfadkaab/screen/mentor_section/mentors_profile_details/mentors_profile_details.dart';
+import 'package:xirfadkaab/screen/mentor_section/widgets/mentors_design_cart.dart';
 
 import '../../home/organization/organization_details.dart';
 
@@ -16,48 +16,50 @@ class OrganizationCart extends StatelessWidget {
   Widget build(BuildContext context) {
     return organizationResponse?.data?.instructors?.isEmpty ?? true == true
         ? Column(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Visibility(
-          visible: true,
-          child: Align(
-              alignment: Alignment.center,
-              child: Text(
-                "Organization Not Found".tr(),
-                style: const TextStyle(
-                    fontSize: 26,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black26),
-              )),
-        )
-      ],
-    )
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Visibility(
+                visible: true,
+                child: Align(
+                    alignment: Alignment.center,
+                    child: Text(
+                      "Organization Not Found".tr(),
+                      style: const TextStyle(
+                          fontSize: 26,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black26),
+                    )),
+              )
+            ],
+          )
         : GridView.builder(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          mainAxisExtent: 180.h,
-          crossAxisSpacing: 5,
-          mainAxisSpacing: 5),
-      itemCount: organizationResponse?.data?.instructors?.length ?? 0,
-      itemBuilder: (context, index) {
-        final data = organizationResponse?.data?.instructors?[index];
-        return MentorsDesignCart(
-          image: data?.image,
-          name: data?.name,
-          title: data?.role,
-          rating: double.parse("${data?.rating}"),
-          onTap: () {
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => OrganizationDetails(usersId: data?.id,),
-                ));
-          },
-        );
-      },
-    );
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                mainAxisExtent: 180.h,
+                crossAxisSpacing: 5,
+                mainAxisSpacing: 5),
+            itemCount: organizationResponse?.data?.instructors?.length ?? 0,
+            itemBuilder: (context, index) {
+              final data = organizationResponse?.data?.instructors?[index];
+              return MentorsDesignCart(
+                image: data?.image,
+                name: data?.name,
+                title: data?.role,
+                rating: double.parse("${data?.rating}"),
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => OrganizationDetails(
+                          usersId: data?.id,
+                        ),
+                      ));
+                },
+              );
+            },
+          );
   }
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/web/widgets/web_most_popular_card.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/web/widgets/web_most_popular_card.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class WebMostPopularContent extends StatelessWidget {
   const WebMostPopularContent({

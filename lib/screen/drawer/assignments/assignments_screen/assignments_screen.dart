@@ -3,11 +3,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/drawer/assignments/assignments_details/assignments_details.dart';
-import 'package:lms/screen/drawer/assignments/assignments_screen/assignment_provider.dart';
-import 'package:lms/screen/drawer/widgets/all_assignment_list_cart.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/screen/drawer/assignments/assignments_details/assignments_details.dart';
+import 'package:xirfadkaab/screen/drawer/assignments/assignments_screen/assignment_provider.dart';
+import 'package:xirfadkaab/screen/drawer/widgets/all_assignment_list_cart.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
 import 'package:provider/provider.dart';
 
 class AssignmentsScreen extends StatefulWidget {

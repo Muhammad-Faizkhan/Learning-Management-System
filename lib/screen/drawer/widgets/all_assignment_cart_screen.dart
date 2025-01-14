@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/data/model/dashbaord_response/dashboard_response.dart';
-import 'package:lms/screen/drawer/widgets/all_assignment_list_cart.dart';
+import 'package:xirfadkaab/data/model/dashbaord_response/dashboard_response.dart';
+import 'package:xirfadkaab/screen/drawer/widgets/all_assignment_list_cart.dart';
 
 class AllAssignmentCart extends StatelessWidget {
-   final Assignment? assignmentData;
-  const AllAssignmentCart({
-    super.key,this.assignmentData
-  });
+  final Assignment? assignmentData;
+  const AllAssignmentCart({super.key, this.assignmentData});
 
   @override
   Widget build(BuildContext context) {
@@ -15,25 +13,25 @@ class AllAssignmentCart extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-           AllAssignmentListCart(
+          AllAssignmentListCart(
             title: assignmentData?.title,
             details: assignmentData?.details,
             status: assignmentData?.status,
             deadline: assignmentData?.deadline,
-            
-           ),
+          ),
           SizedBox(
             height: 24.h,
           ),
-           AllAssignmentListCart(
-             title: assignmentData?.title,
+          AllAssignmentListCart(
+            title: assignmentData?.title,
             details: assignmentData?.details,
             status: assignmentData?.status,
-            deadline: assignmentData?.deadline,),
+            deadline: assignmentData?.deadline,
+          ),
           SizedBox(
             height: 24.h,
           ),
-           AllAssignmentListCart(
+          AllAssignmentListCart(
             title: assignmentData?.title,
             details: assignmentData?.details,
             status: assignmentData?.status,

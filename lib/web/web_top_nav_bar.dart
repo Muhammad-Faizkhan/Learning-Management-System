@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'package:lms/widgets/custom_text.dart';
-
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 import '../utils/app_consts.dart';
 
@@ -99,7 +98,8 @@ class WebTopNavBar extends StatelessWidget {
 }
 
 ButtonStyle? menuButtonStyle = TextButton.styleFrom(
-    foregroundColor: Colors.black, backgroundColor: Colors.transparent,
+    foregroundColor: Colors.black,
+    backgroundColor: Colors.transparent,
     textStyle: buttonTextStyle,
     padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16));
 const Color textPrimary = Color(0xFF111111);

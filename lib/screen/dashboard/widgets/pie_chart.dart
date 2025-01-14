@@ -1,8 +1,8 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/dashboard/widgets/indicator.dart';
-import 'package:lms/utils/app_consts.dart';
+import 'package:xirfadkaab/screen/dashboard/widgets/indicator.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
 
 class PieChartSample2 extends StatefulWidget {
   const PieChartSample2({super.key});

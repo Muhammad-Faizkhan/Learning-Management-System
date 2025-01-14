@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lms/screen/auth/splash_screen/splash_screen.dart';
+import 'package:xirfadkaab/screen/auth/splash_screen/splash_screen.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import '../../utils/nav_utail.dart';

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/data/model/mentors_response/mentors_profile_details_response.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_text.dart';
+
+import 'package:xirfadkaab/data/model/mentors_response/mentors_profile_details_response.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class AboutCart extends StatelessWidget {
   final MentorsDetailsResponse? mentorsDetailsResponse;
@@ -95,7 +96,7 @@ class AboutCart extends StatelessWidget {
                       SizedBox(
                         height: 12.h,
                       ),
-                      //  mentorsDetailsResponse?.data?.instructor?.about?.experiences?.length > 0 ?
+
                       CustomText(
                         text: 'no_experiences_found',
                         fontSize: 14.sp,
@@ -117,22 +118,30 @@ class AboutCart extends StatelessWidget {
             SizedBox(
               height: 12.h,
             ),
-            mentorsDetailsResponse?.data?.instructor?.about?.educations?[0]
-                        .description?.isNotEmpty ==
-                    true
-                ? CustomText(
-                    text: mentorsDetailsResponse?.data?.instructor?.about
-                            ?.educations?[0].description ??
-                        '',
-                    fontSize: 14.sp,
-                    fontWeight: FontWeight.w500,
-                    color: AppColors.body,
+            mentorsDetailsResponse
+                        ?.data?.instructor?.about?.educations?.length !=
+                    0
+                ? Column(
+                    children: [
+                      CustomText(
+                        text: mentorsDetailsResponse?.data?.instructor?.about
+                                ?.educations?[0].description ??
+                            '',
+                        fontSize: 14.sp,
+                        fontWeight: FontWeight.w500,
+                        color: AppColors.body,
+                      ),
+                    ],
                   )
-                : CustomText(
-                    text: 'no_data_found',
-                    fontSize: 14.sp,
-                    fontWeight: FontWeight.w600,
-                    color: AppColors.body,
+                : Column(
+                    children: [
+                      CustomText(
+                        text: 'no_data_found',
+                        fontSize: 14.sp,
+                        fontWeight: FontWeight.w600,
+                        color: AppColors.body,
+                      ),
+                    ],
                   ),
           ],
         ),

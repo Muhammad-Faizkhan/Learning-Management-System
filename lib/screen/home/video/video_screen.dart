@@ -1,10 +1,10 @@
 // import 'package:flutter/material.dart';
 // import 'package:flutter_html/flutter_html.dart';
 // import 'package:flutter_screenutil/flutter_screenutil.dart';
-// import 'package:lms/data/model/course_details_response/course_details_response.dart';
-// import 'package:lms/utils/app_consts.dart';
-// import 'package:lms/widgets/custom_app_bar.dart';
-// import 'package:lms/widgets/custom_text.dart';
+// import 'package:xirfadkaab/data/model/course_details_response/course_details_response.dart';
+// import 'package:xirfadkaab/utils/app_consts.dart';
+// import 'package:xirfadkaab/widgets/custom_app_bar.dart';
+// import 'package:xirfadkaab/widgets/custom_text.dart';
 // import 'package:video_player/video_player.dart';
 
 // /// Stateful widget to fetch and then display video content.

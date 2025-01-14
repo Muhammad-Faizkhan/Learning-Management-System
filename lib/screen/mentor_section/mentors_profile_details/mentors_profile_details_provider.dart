@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lms/data/model/mentors_response/mentors_profile_details_response.dart';
-import 'package:lms/data/repository/metors_repository/mentors_profile_details_repository.dart';
+import 'package:xirfadkaab/data/model/mentors_response/mentors_profile_details_response.dart';
+import 'package:xirfadkaab/data/repository/metors_repository/mentors_profile_details_repository.dart';
 
 class MentorsProfileDetailsProvider extends ChangeNotifier {
   MentorsDetailsResponse? mentorsDetailsResponse;

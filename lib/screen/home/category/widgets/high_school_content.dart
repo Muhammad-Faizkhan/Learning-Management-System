@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/category/widgets/category_grid_view_cart.dart';
+import 'package:xirfadkaab/screen/home/category/widgets/category_grid_view_cart.dart';
 
 class HighSchoolContent extends StatelessWidget {
   final List<dynamic>? categories;
-  const HighSchoolContent({
-    super.key,this.categories
-  });
+  const HighSchoolContent({super.key, this.categories});
 
   @override
   Widget build(BuildContext context) {

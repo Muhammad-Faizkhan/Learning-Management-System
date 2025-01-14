@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:lms/data/model/dashbaord_response/dashboard_response.dart';
-import 'package:lms/data/model/profile_response/profile_response.dart';
-import 'package:lms/data/repository/dashboard_repository/dashboard_repository.dart';
-import 'package:lms/data/repository/profile_repository/profile_repository.dart';
-import 'package:lms/utils/shared_preferences.dart';
+import 'package:xirfadkaab/data/model/dashbaord_response/dashboard_response.dart';
+import 'package:xirfadkaab/data/model/profile_response/profile_response.dart';
+import 'package:xirfadkaab/data/repository/dashboard_repository/dashboard_repository.dart';
+import 'package:xirfadkaab/data/repository/profile_repository/profile_repository.dart';
+import 'package:xirfadkaab/utils/shared_preferences.dart';
 
 class DashboardScreenProvider extends ChangeNotifier {
   ProfileResponse? profileResponse;

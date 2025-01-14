@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/shared_preferences.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/shared_preferences.dart';
 
 class ApiService {
   static Dio? _dio;

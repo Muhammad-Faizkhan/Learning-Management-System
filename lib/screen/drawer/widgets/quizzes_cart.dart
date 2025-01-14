@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/auth/widgets/elevated_button_widget.dart';
-import 'package:lms/screen/home/best_selling_course_details/best_selling_course_details.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/screen/auth/widgets/elevated_button_widget.dart';
+import 'package:xirfadkaab/screen/home/best_selling_course_details/best_selling_course_details.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class QuizzesCart extends StatelessWidget {
   const QuizzesCart({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lms/data/model/notification_response/notification_response.dart';
-import 'package:lms/data/repository/notification_respository/notification_repository.dart';
+import 'package:xirfadkaab/data/model/notification_response/notification_response.dart';
+import 'package:xirfadkaab/data/repository/notification_respository/notification_repository.dart';
 
 class NotificationProvider extends ChangeNotifier {
   NotificationResponse? notificationResponse;
@@ -9,7 +9,8 @@ class NotificationProvider extends ChangeNotifier {
     notificationApi();
   }
   void notificationApi() async {
-    var apiResponse = await NotificationRepository.getNotificationRepositoryData();
+    var apiResponse =
+        await NotificationRepository.getNotificationRepositoryData();
 
     if (apiResponse.success == true) {
       notificationResponse = apiResponse.data;

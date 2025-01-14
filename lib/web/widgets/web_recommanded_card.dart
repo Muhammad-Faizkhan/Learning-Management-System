@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class WebRecommandedCard extends StatelessWidget {
   const WebRecommandedCard({
@@ -30,7 +30,8 @@ class WebRecommandedCard extends StatelessWidget {
                 height: 28,
               ),
               const CustomText(
-                text: '100 Days of Code: The Complete Python\nPro Bootcamp for 2022',
+                text:
+                    '100 Days of Code: The Complete Python\nPro Bootcamp for 2022',
                 color: AppColors.title,
                 fontSize: 18,
                 fontWeight: FontWeight.w600,

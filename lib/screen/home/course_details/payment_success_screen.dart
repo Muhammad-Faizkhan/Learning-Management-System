@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/enrole_course_details/enrole_course_detials_page.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
-import 'package:lms/widgets/elevated_button_widget.dart';
+import 'package:xirfadkaab/screen/home/enrole_course_details/enrole_course_detials_page.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/widgets/elevated_button_widget.dart';
 
 class PaymentSuccessfullScreen extends StatelessWidget {
   const PaymentSuccessfullScreen({super.key});

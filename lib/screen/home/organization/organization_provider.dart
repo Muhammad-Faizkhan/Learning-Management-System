@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:lms/data/repository/organization_repository/organization_repository.dart';
+import 'package:xirfadkaab/data/repository/organization_repository/organization_repository.dart';
 import '../../../data/model/organization_response/organizetion_model.dart';
 
 class OrganizationProvider extends ChangeNotifier {
@@ -50,7 +50,7 @@ class OrganizationProvider extends ChangeNotifier {
 
   void getOrganization(String? type, String? search) async {
     var apiResponse =
-    await OrganizationRepository.getOrganizationData(type, search);
+        await OrganizationRepository.getOrganizationData(type, search);
 
     if (apiResponse.success == true) {
       organizationResponse = apiResponse.data;

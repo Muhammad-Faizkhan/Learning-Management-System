@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lms/screen/home/home_screen/content/home_content.dart';
-import 'package:lms/screen/home/home_screen/home_provider.dart';
-import 'package:lms/utils/app_consts.dart';
+import 'package:xirfadkaab/screen/home/home_screen/content/home_content.dart';
+import 'package:xirfadkaab/screen/home/home_screen/home_provider.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -14,11 +14,12 @@ class HomeScreen extends StatelessWidget {
         return Scaffold(
           backgroundColor: AppColors.backgroundColor,
           body: SingleChildScrollView(
-            child: HomeContent(provider: provider,),
+            child: HomeContent(
+              provider: provider,
+            ),
           ),
         );
       },
     );
   }
 }
-

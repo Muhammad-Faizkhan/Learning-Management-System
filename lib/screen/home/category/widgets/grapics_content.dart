@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/category/widgets/category_grid_view_cart.dart';
+import 'package:xirfadkaab/screen/home/category/widgets/category_grid_view_cart.dart';
 
 class GraphicsContent extends StatelessWidget {
   const GraphicsContent({

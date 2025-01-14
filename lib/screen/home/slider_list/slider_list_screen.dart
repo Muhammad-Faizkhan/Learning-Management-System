@@ -1,10 +1,10 @@
 // import 'package:cached_network_image/cached_network_image.dart';
 // import 'package:flutter/material.dart';
 // import 'package:flutter_screenutil/flutter_screenutil.dart';
-// import 'package:lms/screen/home/course_details/course_details_screen/course_details_screen.dart';
-// import 'package:lms/screen/home/slider_list/slider_list_provider.dart';
-// import 'package:lms/screen/home/widgets/best_selling_courses_cart.dart';
-// import 'package:lms/widgets/custom_app_bar.dart';
+// import 'package:xirfadkaab/screen/home/course_details/course_details_screen/course_details_screen.dart';
+// import 'package:xirfadkaab/screen/home/slider_list/slider_list_provider.dart';
+// import 'package:xirfadkaab/screen/home/widgets/best_selling_courses_cart.dart';
+// import 'package:xirfadkaab/widgets/custom_app_bar.dart';
 // import 'package:provider/provider.dart';
 
 // class SliderListScreen extends StatelessWidget {

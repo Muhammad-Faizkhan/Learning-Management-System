@@ -1,11 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/category/category_course_list/category_course_list_screen.dart';
-import 'package:lms/screen/home/category/see_all_category/see_all_category_provider.dart';
-import 'package:lms/screen/home/category/widgets/category_grid_view_cart.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/screen/home/category/category_course_list/category_course_list_screen.dart';
+import 'package:xirfadkaab/screen/home/category/see_all_category/see_all_category_provider.dart';
+import 'package:xirfadkaab/screen/home/category/widgets/category_grid_view_cart.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
 import 'package:provider/provider.dart';
 
 class SeeAllCategory extends StatelessWidget {

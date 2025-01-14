@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lms/data/model/mentors_response/mentors_profile_details_response.dart';
-import 'package:lms/data/repository/metors_repository/mentors_profile_details_repository.dart';
+import 'package:xirfadkaab/data/model/mentors_response/mentors_profile_details_response.dart';
+import 'package:xirfadkaab/data/repository/metors_repository/mentors_profile_details_repository.dart';
 
 import '../../../data/model/organization_response/organization_details_response.dart';
 import '../../../data/repository/organization_repository/organizations_details_repository.dart';
@@ -42,7 +42,8 @@ class OrganizationDetailsProvider extends ChangeNotifier {
 
   void getOrganizationDetails() async {
     var apiResponse =
-    await OrganizationDetailsRepository.getOrganizationDetailsData(userResponseId);
+        await OrganizationDetailsRepository.getOrganizationDetailsData(
+            userResponseId);
     if (apiResponse.success == true) {
       organizationDetailsResponse = apiResponse.data;
       notifyListeners();

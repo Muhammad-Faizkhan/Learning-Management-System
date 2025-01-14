@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lms/utils/app_dimensions.dart';
+import 'package:xirfadkaab/utils/app_dimensions.dart';
 
 class AppText {
   static TextStyle? btn;

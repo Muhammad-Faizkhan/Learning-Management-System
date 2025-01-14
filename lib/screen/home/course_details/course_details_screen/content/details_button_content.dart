@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/course_details/course_details_screen/course_details_provider.dart';
-import 'package:lms/screen/home/course_details/payment_list/payment_method.dart';
-import 'package:lms/screen/home/course_details/payment_request/course_details_webview.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/screen/home/course_details/course_details_screen/course_details_provider.dart';
+import 'package:xirfadkaab/screen/home/course_details/payment_list/payment_method.dart';
+import 'package:xirfadkaab/screen/home/course_details/payment_request/course_details_webview.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class DetailsButtonContent extends StatelessWidget {
   final CourseDetailsProvider? provider;

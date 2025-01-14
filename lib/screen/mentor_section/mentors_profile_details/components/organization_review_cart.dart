@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/data/model/mentors_response/mentors_profile_details_response.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/data/model/mentors_response/mentors_profile_details_response.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 import '../../../../data/model/organization_response/organization_details_response.dart';
 
@@ -30,133 +30,133 @@ class OrganizationCart extends StatelessWidget {
                 children: [
                   Expanded(
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          CustomText(
-                            text: organizationDetailsResponse
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      CustomText(
+                        text: organizationDetailsResponse
                                 ?.data?.organization?.reviews?.rating
                                 .toString() ??
-                                '',
-                            fontSize: 24.sp,
-                            fontWeight: FontWeight.w600,
-                            color: AppColors.title,
-                          ),
-                          SizedBox(
-                            height: 12.h,
-                          ),
-                          CustomText(
-                            text:
+                            '',
+                        fontSize: 24.sp,
+                        fontWeight: FontWeight.w600,
+                        color: AppColors.title,
+                      ),
+                      SizedBox(
+                        height: 12.h,
+                      ),
+                      CustomText(
+                        text:
                             'Based on ${organizationDetailsResponse?.data?.organization?.reviews?.reviewCount ?? ''} Reviews',
-                            fontSize: 12.sp,
-                            fontWeight: FontWeight.w600,
+                        fontSize: 12.sp,
+                        fontWeight: FontWeight.w600,
+                        color: AppColors.body,
+                      ),
+                      SizedBox(
+                        height: 12.h,
+                      ),
+                      RatingBarIndicator(
+                        rating: double.parse(
+                            "${organizationDetailsResponse?.data?.organization?.reviews?.rating ?? 0.0}"),
+                        itemBuilder: (context, index) => const Icon(
+                          Icons.star,
+                          color: Colors.amber,
+                        ),
+                        itemCount: 5,
+                        itemSize: 25.0,
+                        direction: Axis.horizontal,
+                      ),
+                    ],
+                  )),
+                  Expanded(
+                      child: Column(
+                    children: [
+                      Row(
+                        children: [
+                          CustomText(
+                            text: '5 star',
+                            fontSize: 10.sp,
+                            fontWeight: FontWeight.w500,
                             color: AppColors.body,
                           ),
                           SizedBox(
-                            height: 12.h,
+                            width: 8.w,
                           ),
-                          RatingBarIndicator(
-                            rating: double.parse(
-                                "${organizationDetailsResponse?.data?.organization?.reviews?.rating ?? 0.0}"),
-                            itemBuilder: (context, index) => const Icon(
-                              Icons.star,
-                              color: Colors.amber,
-                            ),
-                            itemCount: 5,
-                            itemSize: 25.0,
-                            direction: Axis.horizontal,
-                          ),
+                          Image.asset(
+                            'assets/mentors/Bar5.png',
+                            height: 8.h,
+                          )
                         ],
-                      )),
-                  Expanded(
-                      child: Column(
+                      ),
+                      Row(
                         children: [
-                          Row(
-                            children: [
-                              CustomText(
-                                text: '5 star',
-                                fontSize: 10.sp,
-                                fontWeight: FontWeight.w500,
-                                color: AppColors.body,
-                              ),
-                              SizedBox(
-                                width: 8.w,
-                              ),
-                              Image.asset(
-                                'assets/mentors/Bar5.png',
-                                height: 8.h,
-                              )
-                            ],
+                          CustomText(
+                            text: '4 star',
+                            fontSize: 10.sp,
+                            fontWeight: FontWeight.w500,
+                            color: AppColors.body,
                           ),
-                          Row(
-                            children: [
-                              CustomText(
-                                text: '4 star',
-                                fontSize: 10.sp,
-                                fontWeight: FontWeight.w500,
-                                color: AppColors.body,
-                              ),
-                              SizedBox(
-                                width: 8.w,
-                              ),
-                              Image.asset(
-                                'assets/mentors/Bar4.png',
-                                height: 8.h,
-                              )
-                            ],
+                          SizedBox(
+                            width: 8.w,
                           ),
-                          Row(
-                            children: [
-                              CustomText(
-                                text: '3 star',
-                                fontSize: 10.sp,
-                                fontWeight: FontWeight.w500,
-                                color: AppColors.body,
-                              ),
-                              SizedBox(
-                                width: 8.w,
-                              ),
-                              Image.asset(
-                                'assets/mentors/Bar3.png',
-                                height: 8.h,
-                              )
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              CustomText(
-                                text: '2 star',
-                                fontSize: 10.sp,
-                                fontWeight: FontWeight.w500,
-                                color: AppColors.body,
-                              ),
-                              SizedBox(
-                                width: 8.w,
-                              ),
-                              Image.asset(
-                                'assets/mentors/Bar2.png',
-                                height: 8.h,
-                              )
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              CustomText(
-                                text: '1 star',
-                                fontSize: 10.sp,
-                                fontWeight: FontWeight.w500,
-                                color: AppColors.body,
-                              ),
-                              SizedBox(
-                                width: 8.w,
-                              ),
-                              Image.asset(
-                                'assets/mentors/Bar1.png',
-                                height: 8.h,
-                              )
-                            ],
-                          ),
+                          Image.asset(
+                            'assets/mentors/Bar4.png',
+                            height: 8.h,
+                          )
                         ],
-                      )),
+                      ),
+                      Row(
+                        children: [
+                          CustomText(
+                            text: '3 star',
+                            fontSize: 10.sp,
+                            fontWeight: FontWeight.w500,
+                            color: AppColors.body,
+                          ),
+                          SizedBox(
+                            width: 8.w,
+                          ),
+                          Image.asset(
+                            'assets/mentors/Bar3.png',
+                            height: 8.h,
+                          )
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          CustomText(
+                            text: '2 star',
+                            fontSize: 10.sp,
+                            fontWeight: FontWeight.w500,
+                            color: AppColors.body,
+                          ),
+                          SizedBox(
+                            width: 8.w,
+                          ),
+                          Image.asset(
+                            'assets/mentors/Bar2.png',
+                            height: 8.h,
+                          )
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          CustomText(
+                            text: '1 star',
+                            fontSize: 10.sp,
+                            fontWeight: FontWeight.w500,
+                            color: AppColors.body,
+                          ),
+                          SizedBox(
+                            width: 8.w,
+                          ),
+                          Image.asset(
+                            'assets/mentors/Bar1.png',
+                            height: 8.h,
+                          )
+                        ],
+                      ),
+                    ],
+                  )),
                 ],
               ),
             ),

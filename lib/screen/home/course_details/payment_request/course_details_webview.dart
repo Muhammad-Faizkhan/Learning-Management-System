@@ -1,11 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/bottom_nav_bar/bottom_nav_bar.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/utils/shared_preferences.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/screen/home/bottom_nav_bar/bottom_nav_bar.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/utils/shared_preferences.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 // ignore: depend_on_referenced_packages
 import 'package:webview_flutter_android/webview_flutter_android.dart' as web;

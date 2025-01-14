@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/organization/organization_provider.dart';
-import 'package:lms/screen/mentor_section/widgets/organization_cart.dart';
+import 'package:xirfadkaab/screen/home/organization/organization_provider.dart';
+import 'package:xirfadkaab/screen/mentor_section/widgets/organization_cart.dart';
 import 'package:provider/provider.dart';
 import '../../../utils/app_consts.dart';
 import '../../drawer/drawer_screen/drawer_screen.dart';
@@ -41,7 +41,7 @@ class OrganizationScreen extends StatelessWidget {
                               enabledBorder: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(10),
                                 borderSide:
-                                const BorderSide(color: AppColors.border),
+                                    const BorderSide(color: AppColors.border),
                               ),
                               suffixIcon: Padding(
                                 padding: const EdgeInsets.only(right: 12.0),
@@ -63,7 +63,8 @@ class OrganizationScreen extends StatelessWidget {
                     ],
                   ),
                   SizedBox(height: 24.h),
-                  OrganizationCart(organizationResponse: provider.organizationResponse),
+                  OrganizationCart(
+                      organizationResponse: provider.organizationResponse),
                 ],
               ),
             ),

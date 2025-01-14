@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class WebInstructorsContent extends StatelessWidget {
   const WebInstructorsContent({

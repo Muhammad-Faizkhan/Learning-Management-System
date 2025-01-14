@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/home/widgets/most_popular_content.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
-import 'package:lms/widgets/search_field.dart';
+import 'package:xirfadkaab/screen/home/widgets/most_popular_content.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/widgets/search_field.dart';
 
 class MostPopularCourseScreen extends StatelessWidget {
   const MostPopularCourseScreen({super.key});

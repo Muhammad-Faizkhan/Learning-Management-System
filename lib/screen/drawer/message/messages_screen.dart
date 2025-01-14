@@ -1,11 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/drawer/widgets/call_content.dart';
-import 'package:lms/screen/drawer/widgets/meetings_content.dart';
-import 'package:lms/screen/drawer/widgets/message_content.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/screen/drawer/widgets/call_content.dart';
+import 'package:xirfadkaab/screen/drawer/widgets/meetings_content.dart';
+import 'package:xirfadkaab/screen/drawer/widgets/message_content.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
 
 class MessageScreen extends StatefulWidget {
   const MessageScreen({super.key});

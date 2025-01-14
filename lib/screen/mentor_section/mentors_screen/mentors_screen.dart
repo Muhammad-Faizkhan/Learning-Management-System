@@ -1,10 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/drawer/drawer_screen/drawer_screen.dart';
-import 'package:lms/screen/mentor_section/mentors_screen/mentors_screen_provider.dart';
-import 'package:lms/screen/mentor_section/widgets/instructors_cart.dart';
-import 'package:lms/utils/app_consts.dart';
+import 'package:xirfadkaab/screen/drawer/drawer_screen/drawer_screen.dart';
+import 'package:xirfadkaab/screen/mentor_section/mentors_screen/mentors_screen_provider.dart';
+import 'package:xirfadkaab/screen/mentor_section/widgets/instructors_cart.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
 import 'package:provider/provider.dart';
 
 class InstructorScreen extends StatefulWidget {

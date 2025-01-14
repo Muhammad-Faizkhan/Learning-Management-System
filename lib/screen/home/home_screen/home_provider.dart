@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/data/model/home_response/home_response.dart';
-import 'package:lms/data/model/slider_response/slider_response.dart';
-import 'package:lms/data/repository/home_repository/home_repository.dart';
-import 'package:lms/utils/shared_preferences.dart';
+import 'package:xirfadkaab/data/model/home_response/home_response.dart';
+import 'package:xirfadkaab/data/model/slider_response/slider_response.dart';
+import 'package:xirfadkaab/data/repository/home_repository/home_repository.dart';
+import 'package:xirfadkaab/utils/shared_preferences.dart';
 
 class HomeProvider extends ChangeNotifier {
   List<Category>? categories;

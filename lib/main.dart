@@ -7,13 +7,14 @@ import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:lms/data/connectivity/connectivity_status.dart';
-import 'package:lms/screen/auth/login_screen/login_provider.dart';
-import 'package:lms/screen/auth/splash_screen/splash_screen.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/web/web_landing_page.dart';
+
 import 'package:provider/provider.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+import 'package:xirfadkaab/data/connectivity/connectivity_status.dart';
+import 'package:xirfadkaab/screen/auth/login_screen/login_provider.dart';
+import 'package:xirfadkaab/screen/auth/splash_screen/splash_screen.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/web/web_landing_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

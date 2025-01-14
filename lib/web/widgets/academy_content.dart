@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/web/widgets/academy_cart.dart';
-import 'package:lms/widgets/custom_text.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/web/widgets/academy_cart.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
 
 class AcademyContent extends StatelessWidget {
   const AcademyContent({

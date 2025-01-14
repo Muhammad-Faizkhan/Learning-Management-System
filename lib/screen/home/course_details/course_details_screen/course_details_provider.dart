@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:lms/data/model/bookmark_response/bookmark_response.dart';
-import 'package:lms/data/model/course_details_response/course_details_response.dart';
-import 'package:lms/data/model/course_enroll_response/course_enroll_response.dart';
-import 'package:lms/data/model/favorites_response/favorites_toggle_response.dart';
-import 'package:lms/data/repository/course_details_repository/course_details_repository.dart';
-import 'package:lms/screen/home/course_details/course_details_screen/content/details_text_content.dart';
-import 'package:lms/screen/home/course_details/course_details_screen/content/video_player_page.dart';
-import 'package:lms/screen/home/course_details/learning_screen/learning_screen.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/utils/nav_utail.dart';
-import 'package:lms/utils/shared_preferences.dart';
+import 'package:xirfadkaab/data/model/bookmark_response/bookmark_response.dart';
+import 'package:xirfadkaab/data/model/course_details_response/course_details_response.dart';
+import 'package:xirfadkaab/data/model/course_enroll_response/course_enroll_response.dart';
+import 'package:xirfadkaab/data/model/favorites_response/favorites_toggle_response.dart';
+import 'package:xirfadkaab/data/repository/course_details_repository/course_details_repository.dart';
+import 'package:xirfadkaab/screen/home/course_details/course_details_screen/content/details_text_content.dart';
+import 'package:xirfadkaab/screen/home/course_details/course_details_screen/content/video_player_page.dart';
+import 'package:xirfadkaab/screen/home/course_details/learning_screen/learning_screen.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/utils/nav_utail.dart';
+import 'package:xirfadkaab/utils/shared_preferences.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class CourseDetailsProvider extends ChangeNotifier {
@@ -36,12 +36,14 @@ class CourseDetailsProvider extends ChangeNotifier {
 
   Future<CourseDetailsResponse?> courseDetailsApi(int? id) async {
     var apiResponse =
-    await CourseDetailsRepository.getCourseDetailsRepositoryApi(id);
+        await CourseDetailsRepository.getCourseDetailsRepositoryApi(id);
     if (apiResponse.success == true) {
       courseDetailsResponse = apiResponse.data;
 
       controller = YoutubePlayerController(
-        initialVideoId: YoutubePlayer.convertUrlToId(courseDetailsResponse!.data!.details!.videoUrl!) ?? '',
+        initialVideoId: YoutubePlayer.convertUrlToId(
+                courseDetailsResponse!.data!.details!.videoUrl!) ??
+            '',
         flags: const YoutubePlayerFlags(
           autoPlay: false,
           mute: false,
@@ -94,8 +96,8 @@ class CourseDetailsProvider extends ChangeNotifier {
   }
 }
 
-Future<void> showMyDialog(context,
-    FavoritesToggleResponse? favoritesToggleResponse) async {
+Future<void> showMyDialog(
+    context, FavoritesToggleResponse? favoritesToggleResponse) async {
   return showDialog<void>(
     context: context,
     barrierDismissible: false, // user must tap button!

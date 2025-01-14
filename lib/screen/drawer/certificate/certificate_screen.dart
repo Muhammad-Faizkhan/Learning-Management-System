@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/profile/my_profile_provider.dart';
-import 'package:lms/screen/profile/widgets/certificate_cart.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/screen/profile/my_profile_provider.dart';
+import 'package:xirfadkaab/screen/profile/widgets/certificate_cart.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
 import 'package:provider/provider.dart';
 
 class CertificateScreen extends StatelessWidget {

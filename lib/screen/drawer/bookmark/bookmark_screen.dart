@@ -1,10 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/drawer/bookmark/bookmark_screen_provider.dart';
-import 'package:lms/screen/drawer/bookmark/components/bookmark_design_cart.dart';
-import 'package:lms/screen/home/course_details/course_details_screen/course_details_screen.dart';
-import 'package:lms/widgets/bookmark_app_bar.dart';
+import 'package:xirfadkaab/screen/drawer/bookmark/bookmark_screen_provider.dart';
+import 'package:xirfadkaab/screen/drawer/bookmark/components/bookmark_design_cart.dart';
+import 'package:xirfadkaab/screen/home/course_details/course_details_screen/course_details_screen.dart';
+import 'package:xirfadkaab/widgets/bookmark_app_bar.dart';
 import 'package:provider/provider.dart';
 
 class BookmarkScreen extends StatelessWidget {

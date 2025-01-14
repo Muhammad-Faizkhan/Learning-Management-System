@@ -1,11 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:lms/screen/drawer/assignments/assignment_uploaded/assignment_upload_provider.dart';
-import 'package:lms/utils/app_consts.dart';
-import 'package:lms/widgets/custom_app_bar.dart';
-import 'package:lms/widgets/custom_text.dart';
-import 'package:lms/widgets/elevated_button_widget.dart';
+import 'package:xirfadkaab/screen/drawer/assignments/assignment_uploaded/assignment_upload_provider.dart';
+import 'package:xirfadkaab/utils/app_consts.dart';
+import 'package:xirfadkaab/widgets/custom_app_bar.dart';
+import 'package:xirfadkaab/widgets/custom_text.dart';
+import 'package:xirfadkaab/widgets/elevated_button_widget.dart';
 import 'package:provider/provider.dart';
 
 class AssignmentUploadedScreen extends StatelessWidget {
