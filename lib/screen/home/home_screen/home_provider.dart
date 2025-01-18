@@ -6,6 +6,14 @@ import 'package:xirfadkaab/data/repository/home_repository/home_repository.dart'
 import 'package:xirfadkaab/utils/shared_preferences.dart';
 
 class HomeProvider extends ChangeNotifier {
+  bool _isDisposed = false;
+
+  @override
+  void dispose() {
+    _isDisposed = true;
+    super.dispose();
+  }
+
   List<Category>? categories;
   List<dynamic>? featuredClasses;
   List<Course>? latestClasses;
@@ -58,7 +66,9 @@ class HomeProvider extends ChangeNotifier {
       bestSellers = apiResponse.data?.data?.courses?.bestSellingCourses;
       freeClasses = apiResponse.data?.data?.courses?.freeCourses;
       discountClasses = apiResponse.data?.data?.courses?.discountCourses;
-      notifyListeners();
+      if (!_isDisposed) {
+        notifyListeners();
+      }
     }
   }
 

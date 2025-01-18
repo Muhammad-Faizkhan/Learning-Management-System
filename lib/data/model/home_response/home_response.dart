@@ -49,8 +49,9 @@ class Data {
             ? []
             : List<Category>.from(
                 json["categories"]!.map((x) => Category.fromJson(x))),
-        courses:
-            json["courses"] == null ? null : Courses.fromJson(json["courses"]),
+        courses: json["courses"] == null || json["courses"] is! Map
+            ? null
+            : Courses.fromJson(json["courses"]),
       );
 
   Map<String, dynamic> toJson() => {

@@ -23,23 +23,44 @@ class AboutUs extends StatelessWidget {
             ),
             body: Padding(
               padding: const EdgeInsets.all(24.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Image.asset(
-                    'assets/onboarding/logoxirfadkaab.jpg',
-                    height: 74.h,
-                  ),
-                  SizedBox(
-                    height: 20.h,
-                  ),
-                  CustomText(
-                    text: provider.aboutUsResponse?.data?.value ?? "",
-                    color: AppColors.body,
-                    fontSize: 18.sp,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ],
+              child: SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Center(
+                      child: Image.asset(
+                        'assets/onboarding/logoxirfadkaab.jpg',
+                        height: 74.h,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 20.h,
+                    ),
+                    CustomText(
+                      text: provider.aboutUsResponse?.data?.value ??
+                          "Kusoo dhawoow Xirfadkaab College\n\n"
+                              "XirfadKaab waa kuleej caalami ah oo bixiya tababaro iyo Diploomooyin ku saabsan farsamooyinka Tiknoolajiyada, Luuqadaha, Maamulka iyo Ganacsiga.\n\n"
+                              "Doorashada xirfad shaqo iyo horumarinta noloshaada waa yoolka yaga koobaad.\n\n"
+                              "Wax ka ogow Xirfadkaab College\n\n"
+                              "Casharo Maqal iyo Muuqaal ah\n\n"
+                              "100% Practical Itus oo itaabsii ah\n\n"
+                              "Live classyo iyo helid shahaado\n\n"
+                              "Takhasusyada aan Tababarada ka bixino\n"
+                              "- Business & Management\n"
+                              "- Computer Application\n"
+                              "- Cyber Security\n"
+                              "- Database Administration\n"
+                              "- Nework Engineer\n"
+                              "- System Administration\n"
+                              "- Software Development Development\n"
+                              "- Languages\n"
+                              "- Personal Development",
+                      color: AppColors.body,
+                      fontSize: 18.sp,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ],
+                ),
               ),
             ),
           );
